@@ -1,0 +1,119 @@
+.page {
+  text-align: center;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 8px;
+  letter-spacing: -0.5px;
+}
+
+.hint {
+  color: var(--text-secondary);
+  margin-bottom: 28px;
+  max-width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.uploadArea {
+  margin-bottom: 28px;
+}
+
+.fileInput {
+  display: none;
+}
+
+.uploadLabel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.15), rgba(168, 85, 247, 0.1));
+  border: 1px dashed rgba(108, 92, 231, 0.4);
+  color: var(--accent-2);
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.uploadLabel:hover {
+  background: linear-gradient(135deg, rgba(108, 92, 231, 0.25), rgba(168, 85, 247, 0.15));
+  border-color: var(--accent);
+  box-shadow: 0 0 25px rgba(108, 92, 231, 0.15);
+}
+
+.empty {
+  color: var(--text-muted);
+  padding: 56px 0;
+  font-size: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  border: 1px solid var(--border);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(108, 92, 231, 0.3);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.4);
+}
+
+.img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card:hover .img {
+  transform: scale(1.04);
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 14px;
+}
+
+.name {
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--text-primary);
+}
+
+.delBtn {
+  padding: 5px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: transparent;
+  font-size: 12px;
+  color: var(--text-muted);
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.delBtn:hover {
+  border-color: rgba(239, 68, 68, 0.5);
+  color: var(--danger);
+  background: rgba(239, 68, 68, 0.06);
+}

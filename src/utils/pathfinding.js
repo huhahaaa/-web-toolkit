@@ -1,11 +1,10 @@
-/**
+﻿/**
  * BFS Pathfinding Generator
- * Yields each step: { openSet, closedSet, current, path?, found }
- *
- * Grid: 15x15, 0=empty, 1=wall
- * Start and End are {x, y} coordinates.
+ * Yields each step: { openSet, closedSet, current, path, steps, found, optimalSteps }
+ * Grid: 0=empty, 1=wall. Start/End: {x, y}.
+ * @param {boolean} diagonal - enable 8-directional movement
  */
-export function* bfs(grid, start, end) {
+export function* bfs(grid, start, end, diagonal = false) {
   const rows = grid.length
   const cols = grid[0].length
   const queue = [start]
@@ -17,6 +16,10 @@ export function* bfs(grid, start, end) {
 
   visited.add(key(start))
   parent[key(start)] = null
+
+  const dirs = diagonal
+    ? [[0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[-1,-1]]
+    : [[0,-1],[1,0],[0,1],[-1,0]]
 
   while (queue.length > 0) {
     const current = queue.shift()
@@ -30,6 +33,7 @@ export function* bfs(grid, start, end) {
       path: null,
       steps,
       found: false,
+      optimalSteps: 0,
     }
 
     if (current.x === end.x && current.y === end.y) {
@@ -41,11 +45,12 @@ export function* bfs(grid, start, end) {
         path,
         steps,
         found: true,
+        optimalSteps: path.length - 1,
       }
       return
     }
 
-    for (const [dx, dy] of [[0, -1], [1, 0], [0, 1], [-1, 0]]) {
+    for (const [dx, dy] of dirs) {
       const nx = current.x + dx
       const ny = current.y + dy
       const nKey = key({ x: nx, y: ny })
@@ -61,13 +66,14 @@ export function* bfs(grid, start, end) {
     }
   }
 
-  yield { openSet: [], closedSet, current: null, path: null, steps, found: false }
+  yield { openSet: [], closedSet, current: null, path: null, steps, found: false, optimalSteps: 0 }
 }
 
 /**
  * A* Pathfinding Generator
+ * @param {boolean} diagonal - enable 8-directional movement
  */
-export function* astar(grid, start, end) {
+export function* astar(grid, start, end, diagonal = false) {
   const rows = grid.length
   const cols = grid[0].length
   const openSet = [start]
@@ -78,7 +84,13 @@ export function* astar(grid, start, end) {
   let steps = 0
   const key = (p) => `${p.x},${p.y}`
 
-  const heuristic = (a, b) => Math.abs(a.x - b.x) + Math.abs(a.y - b.y)
+  const heuristic = diagonal
+    ? (a, b) => Math.max(Math.abs(a.x - b.x), Math.abs(a.y - b.y))
+    : (a, b) => Math.abs(a.x - b.x) + Math.abs(a.y - b.y)
+
+  const dirs = diagonal
+    ? [[0,-1],[1,-1],[1,0],[1,1],[0,1],[-1,1],[-1,0],[-1,-1]]
+    : [[0,-1],[1,0],[0,1],[-1,0]]
 
   gScore[key(start)] = 0
   fScore[key(start)] = heuristic(start, end)
@@ -103,6 +115,7 @@ export function* astar(grid, start, end) {
       path: null,
       steps,
       found: false,
+      optimalSteps: 0,
     }
 
     if (current.x === end.x && current.y === end.y) {
@@ -114,11 +127,12 @@ export function* astar(grid, start, end) {
         path,
         steps,
         found: true,
+        optimalSteps: path.length - 1,
       }
       return
     }
 
-    for (const [dx, dy] of [[0, -1], [1, 0], [0, 1], [-1, 0]]) {
+    for (const [dx, dy] of dirs) {
       const nx = current.x + dx
       const ny = current.y + dy
       const nKey = key({ x: nx, y: ny })
@@ -137,7 +151,7 @@ export function* astar(grid, start, end) {
     }
   }
 
-  yield { openSet: [], closedSet, current: null, path: null, steps, found: false }
+  yield { openSet: [], closedSet, current: null, path: null, steps, found: false, optimalSteps: 0 }
 }
 
 function reconstructPath(parent, end) {
@@ -152,8 +166,31 @@ function reconstructPath(parent, end) {
 }
 
 /**
- * Create an empty 15x15 grid.
+ * Create an empty grid.
  */
 export function createGrid(rows = 15, cols = 15) {
   return Array.from({ length: rows }, () => Array(cols).fill(0))
+}
+
+/**
+ * Generate random walls on the grid.
+ * @param {number} density - 0~1 wall probability
+ */
+export function generateWalls(grid, density = 0.25) {
+  const rows = grid.length
+  const cols = grid[0].length
+  for (let y = 0; y < rows; y++) {
+    for (let x = 0; x < cols; x++) {
+      grid[y][x] = Math.random() < density ? 1 : 0
+    }
+  }
+}
+
+/**
+ * Theoretical minimum steps between start and end (Manhattan or Chebyshev).
+ */
+export function minTheoreticalSteps(start, end, diagonal) {
+  const dx = Math.abs(start.x - end.x)
+  const dy = Math.abs(start.y - end.y)
+  return diagonal ? Math.max(dx, dy) : dx + dy
 }

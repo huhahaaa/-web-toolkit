@@ -1,0 +1,34 @@
+import { Routes, Route } from 'react-router-dom'
+import { AuthProvider } from './context/AuthContext'
+import { GalleryProvider } from './context/GalleryContext'
+import { ScheduleProvider } from './context/ScheduleContext'
+import Layout from './components/Layout'
+import Home from './pages/Home'
+import Timer from './pages/Timer'
+import Schedule from './pages/Schedule'
+import Gallery from './pages/Gallery'
+import Sorting from './pages/Sorting'
+import Pathfinding from './pages/Pathfinding'
+import Team from './pages/Team'
+
+export default function App() {
+  return (
+    <AuthProvider>
+      <GalleryProvider>
+        <ScheduleProvider>
+          <Routes>
+            <Route element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="timer" element={<Timer />} />
+              <Route path="schedule" element={<Schedule />} />
+              <Route path="gallery" element={<Gallery />} />
+              <Route path="sorting" element={<Sorting />} />
+              <Route path="pathfinding" element={<Pathfinding />} />
+              <Route path="team" element={<Team />} />
+            </Route>
+          </Routes>
+        </ScheduleProvider>
+      </GalleryProvider>
+    </AuthProvider>
+  )
+}

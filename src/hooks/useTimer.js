@@ -1,10 +1,15 @@
 import { useState, useRef, useCallback, useEffect } from 'react'
 
-export function useTimer(initialMinutes = 25) {
+export function useTimer(initialMinutes = 25, onFinish) {
   const initialSeconds = initialMinutes * 60
   const [seconds, setSeconds] = useState(initialSeconds)
-  const [status, setStatus] = useState('idle') // 'idle' | 'running' | 'paused'
+  const [status, setStatus] = useState('idle') // 'idle' | 'running' | 'paused' | 'finished'
   const intervalRef = useRef(null)
+  const onFinishRef = useRef(onFinish)
+
+  useEffect(() => {
+    onFinishRef.current = onFinish
+  }, [onFinish])
 
   const tick = useCallback(() => {
     setSeconds(prev => {
@@ -12,6 +17,13 @@ export function useTimer(initialMinutes = 25) {
         clearInterval(intervalRef.current)
         intervalRef.current = null
         setStatus('finished')
+        try {
+          if (typeof onFinishRef.current === 'function') {
+            onFinishRef.current()
+          }
+        } catch (e) {
+          // ignore
+        }
         return 0
       }
       return prev - 1

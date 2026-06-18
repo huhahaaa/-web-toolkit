@@ -2,7 +2,14 @@
   "permissions": {
     "allow": [
       "Bash(git *)",
-      "Bash(gh --version)"
+      "Bash(gh --version)",
+      "Read(//c/Users/17574/**)",
+      "Bash(curl *)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebSearch",
+      "Bash(npm.cmd run *)",
+      "Bash(npx eslint *)"
     ]
   }
 }

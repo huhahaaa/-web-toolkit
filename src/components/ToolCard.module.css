@@ -1,45 +1,83 @@
+/* ============================================
+   MD3 Tool Card — Glass Morphism + Ripple
+   ============================================ */
+
 .card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   border-radius: var(--radius-lg);
-  overflow: hidden;
   background: var(--bg-card);
   border: 1px solid var(--border);
-  transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-  position: relative;
+  transition: all 0.4s var(--ease-out);
+  overflow: hidden;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  /* Ripple container */
 }
 
-.card::before {
-  content: '';
+/* --- Sizes --- */
+.cardLarge {
+  flex-direction: column;
+}
+
+.cardSmall {
+  flex-direction: column;
+}
+
+/* --- Hover lift --- */
+.card:hover {
+  transform: translateY(-6px);
+  border-color: var(--border-accent);
+  box-shadow: var(--shadow-lg), var(--glow);
+}
+
+/* --- Glow border on hover --- */
+.glowBorder {
   position: absolute;
   inset: 0;
   border-radius: var(--radius-lg);
-  background: linear-gradient(135deg, rgba(108, 92, 231, 0.06), rgba(168, 85, 247, 0.02));
+  background: linear-gradient(
+    135deg,
+    rgba(167, 139, 250, 0.06),
+    rgba(192, 132, 252, 0.02)
+  );
   opacity: 0;
-  transition: opacity 0.35s ease;
+  transition: opacity 0.4s var(--ease-out);
+  pointer-events: none;
 }
 
-.card:hover {
-  transform: translateY(-6px);
-  border-color: rgba(108, 92, 231, 0.3);
-  box-shadow:
-    0 20px 50px rgba(0, 0, 0, 0.4),
-    0 0 40px rgba(108, 92, 231, 0.08);
-}
-
-.card:hover::before {
+.card:hover .glowBorder {
   opacity: 1;
 }
 
+/* --- Image (large only) --- */
 .imageWrap {
   width: 100%;
-  height: 170px;
+  height: 180px;
   overflow: hidden;
-  background: linear-gradient(135deg, #1a1a3e 0%, #162244 50%, #1a1a3e 100%);
   position: relative;
+  background: linear-gradient(
+    135deg,
+    var(--bg-surface-high),
+    var(--bg-card),
+    var(--bg-surface-high)
+  );
 }
 
-.imageWrap::after {
-  content: '';
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s var(--ease-out);
+}
+
+.card:hover .image {
+  transform: scale(1.06);
+}
+
+.imageOverlay {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -48,42 +86,118 @@
   background: linear-gradient(to top, var(--bg-card), transparent);
 }
 
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
-}
-
-.card:hover .image {
-  transform: scale(1.05);
-}
-
 .placeholder {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 52px;
+  background: linear-gradient(
+    135deg,
+    rgba(167, 139, 250, 0.08),
+    rgba(99, 102, 241, 0.04)
+  );
 }
 
+.placeholderIcon {
+  font-size: 56px;
+  filter: grayscale(0.1);
+  transition: transform 0.4s var(--ease-spring);
+}
+
+.card:hover .placeholderIcon {
+  transform: scale(1.15);
+}
+
+/* --- Body --- */
 .body {
-  padding: 18px 20px 22px;
+  padding: 18px 20px 20px;
   position: relative;
   z-index: 1;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardSmall .body {
+  padding: 20px;
+}
+
+/* Header row with icon and title */
+.headerRow {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 6px;
+}
+
+.icon {
+  font-size: 22px;
+  line-height: 1;
+}
+
+.cardSmall .icon {
+  font-size: 28px;
 }
 
 .title {
   font-size: 17px;
   font-weight: 700;
-  margin-bottom: 6px;
   color: var(--text-primary);
   letter-spacing: -0.3px;
 }
 
+.cardSmall .title {
+  font-size: 16px;
+}
+
+/* --- Description --- */
 .desc {
-  font-size: 13.5px;
+  font-size: 13px;
   color: var(--text-secondary);
   line-height: 1.5;
+  margin-bottom: 12px;
+  flex: 1;
+}
+
+/* --- CTA link --- */
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent);
+  transition: gap 0.3s var(--ease-out);
+  margin-top: auto;
+}
+
+.ctaArrow {
+  transition: transform 0.3s var(--ease-out);
+}
+
+.card:hover .cta {
+  gap: 8px;
+}
+
+.card:hover .ctaArrow {
+  transform: translateX(3px);
+}
+
+/* --- Ripple --- */
+.ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(167, 139, 250, 0.25);
+  transform: scale(0);
+  animation: ripple-anim 0.7s var(--ease-out);
+  pointer-events: none;
+  z-index: 2;
+}
+
+@keyframes ripple-anim {
+  to {
+    transform: scale(6);
+    opacity: 0;
+  }
 }

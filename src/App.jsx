@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
+import { ThemeProvider } from './context/ThemeContext'
 import { AuthProvider } from './context/AuthContext'
 import { GalleryProvider } from './context/GalleryContext'
 import { ScheduleProvider } from './context/ScheduleContext'
@@ -10,13 +11,15 @@ import Gallery from './pages/Gallery'
 import Sorting from './pages/Sorting'
 import Pathfinding from './pages/Pathfinding'
 import Team from './pages/Team'
+import Auth from './pages/Auth'
 
 export default function App() {
   return (
-    <AuthProvider>
-      <GalleryProvider>
-        <ScheduleProvider>
-          <Routes>
+    <ThemeProvider>
+      <AuthProvider>
+        <GalleryProvider>
+          <ScheduleProvider>
+            <Routes>
             <Route element={<Layout />}>
               <Route index element={<Home />} />
               <Route path="timer" element={<Timer />} />
@@ -25,10 +28,12 @@ export default function App() {
               <Route path="sorting" element={<Sorting />} />
               <Route path="pathfinding" element={<Pathfinding />} />
               <Route path="team" element={<Team />} />
+              <Route path="auth" element={<Auth />} />
             </Route>
           </Routes>
-        </ScheduleProvider>
-      </GalleryProvider>
-    </AuthProvider>
+          </ScheduleProvider>
+        </GalleryProvider>
+      </AuthProvider>
+    </ThemeProvider>
   )
 }

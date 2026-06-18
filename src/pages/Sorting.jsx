@@ -172,8 +172,8 @@ export default function Sorting() {
   }, [paused])
 
   useEffect(() => {
-    document.title = `${meta.badge} · 排序算法可视化演算`
-  }, [meta.badge])
+    document.title = 'Web Toolkit'
+  }, [])
 
   useEffect(() => {
     localStorage.setItem('sort-visualizer-preferences', JSON.stringify({ count, algorithm, speed }))

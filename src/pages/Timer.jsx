@@ -4,7 +4,7 @@ import { useSchedule } from '../context/schedule'
 import { useGallery } from '../context/gallery'
 import styles from './Timer.module.css'
 
-const DEFAULT_TITLE = '番茄工作法'
+const DEFAULT_TITLE = 'Web Toolkit'
 const TODAY_KEY = 'pomodoro:completed:today'
 const DATE_KEY = 'pomodoro:completed:date'
 

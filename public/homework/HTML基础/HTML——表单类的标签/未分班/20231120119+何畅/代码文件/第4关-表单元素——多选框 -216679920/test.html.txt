@@ -1,0 +1,8 @@
+休闲方式:<br>
+<!-- ********* Begin ********* -->
+<input type="checkbox" name="relax" />逛街<br>
+<input type="checkbox" name="relax"/>看电影<br>
+<input type="checkbox" name="relax"/>宅
+    
+    
+<!-- ********* End ********* -->

@@ -1,0 +1,4 @@
+<!-- ********* Begin ********* -->
+    
+    密码：<input type="password" name="check" value="123"/>
+<!-- ********* End ********* -->

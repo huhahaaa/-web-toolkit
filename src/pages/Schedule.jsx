@@ -25,7 +25,9 @@ export default function Schedule() {
   }
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} section-ambient`}>
+      <div className="ambient-blob ambient-blob--indigo" style={{ top: '-5%', left: '10%', animationDelay: '0s' }} />
+      <div className="ambient-blob ambient-blob--violet" style={{ bottom: '-8%', right: '8%', animationDelay: '-5s' }} />
       <h2 className={styles.heading}>📋 日程看板</h2>
 
       {/* Add Task Form */}

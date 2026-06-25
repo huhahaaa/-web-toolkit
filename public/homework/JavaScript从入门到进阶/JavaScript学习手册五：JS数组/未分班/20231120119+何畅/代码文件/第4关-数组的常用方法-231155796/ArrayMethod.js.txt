@@ -1,0 +1,26 @@
+function mainJs(myArray) {
+    myArray = myArray.split(",");
+    //请在此处编写代码
+    /*********begin*********/
+
+    var posA = [];
+      var posB = [];
+      var i, idx;
+
+      // 查找所有 "a" 的位置
+      idx = myArray.indexOf("a");
+      while (idx !== -1) {
+          posA.push(idx);
+          idx = myArray.indexOf("a", idx + 1);
+      }
+
+      // 查找所有 "b" 的位置
+      idx = myArray.indexOf("b");
+      while (idx !== -1) {
+          posB.push(idx);
+          idx = myArray.indexOf("b", idx + 1);
+      }
+
+      return posA.concat(posB);
+    /*********end*********/
+}

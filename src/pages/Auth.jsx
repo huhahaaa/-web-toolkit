@@ -18,7 +18,9 @@ export default function Auth() {
   // --- Already logged in: show profile ---
   if (user) {
     return (
-      <div className={styles.page}>
+      <div className={`${styles.page} section-ambient`}>
+        <div className="ambient-blob ambient-blob--purple" style={{ top: '20%', left: '50%', transform: 'translateX(-50%)', animationDelay: '0s', width: '300px', height: '300px' }} />
+        <div className="ambient-blob ambient-blob--violet" style={{ bottom: '15%', right: '30%', animationDelay: '-5s', width: '250px', height: '250px' }} />
         <div className={`${styles.card} glass-strong`}>
           <div className={styles.cardGlow} />
           <h2 className={styles.heading}>👤 个人中心</h2>
@@ -101,7 +103,9 @@ export default function Auth() {
   }
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} section-ambient`}>
+      <div className="ambient-blob ambient-blob--purple" style={{ top: '20%', left: '50%', transform: 'translateX(-50%)', animationDelay: '0s', width: '300px', height: '300px' }} />
+      <div className="ambient-blob ambient-blob--violet" style={{ bottom: '15%', right: '30%', animationDelay: '-5s', width: '250px', height: '250px' }} />
       <div className={`${styles.card} glass-strong`}>
         <div className={styles.cardGlow} />
 

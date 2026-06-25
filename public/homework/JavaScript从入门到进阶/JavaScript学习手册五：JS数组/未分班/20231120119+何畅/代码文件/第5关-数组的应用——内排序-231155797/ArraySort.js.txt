@@ -1,0 +1,25 @@
+function mainJs(a) {
+    var arr = a.split(",");
+    for(var i = 0;i < arr.length;i++) {
+        arr[i] = parseInt(arr[i]);
+    }
+    //请在此处编写代码
+    /*********begin*********/
+     var n = arr.length;
+      var maxIndexArr = [];
+      for (var i = 0; i < n - 1; i++) {
+          var maxIndex = 0;
+          for (var j = 1; j < n - i; j++) {
+              if (arr[j] > arr[maxIndex]) {
+                  maxIndex = j;
+              }
+          }
+          maxIndexArr.push(maxIndex);
+          var temp = arr[n - i - 1];
+          arr[n - i - 1] = arr[maxIndex];
+          arr[maxIndex] = temp;
+      }
+      return maxIndexArr;
+
+    /*********end*********/
+}

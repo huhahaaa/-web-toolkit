@@ -1,0 +1,27 @@
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+	//请在此处编写代码
+	/********** Begin **********/
+    var sum = 0;
+      
+      var start, end;
+      if (a < b) {
+          start = a + 1;
+          end = b - 1;
+      } else {
+          start = b + 1;
+          end = a - 1;
+      }
+      // 如果区间内没有整数（相邻或相等），直接返回0
+      if (start > end) {
+          return 0;
+      }
+      var i = start;
+      do {
+          sum += i;
+          i++;
+      } while (i <= end);
+      return sum;
+	/********** End **********/
+}

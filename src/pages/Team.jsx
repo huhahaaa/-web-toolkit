@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { useGallery } from '../context/gallery'
 import styles from './Team.module.css'
 
@@ -6,7 +7,8 @@ const members = [
     name: 'A',
     role: '组长',
     desc: '负责网页整体架构、模块细分、首页设计与团队展示页面设计',
-    links: { github: '#', email: '#' },
+    links: { github: 'https://github.com/huhahaaa', email: '#' },
+    page: '/member/a',
   },
   {
     name: 'B',
@@ -45,7 +47,10 @@ export default function Team() {
   const avatarPool = images.slice(0, 6)
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} section-ambient`}>
+      <div className="ambient-blob ambient-blob--purple" style={{ top: '0%', left: '15%', animationDelay: '0s' }} />
+      <div className="ambient-blob ambient-blob--indigo" style={{ bottom: '-5%', right: '10%', animationDelay: '-5s' }} />
+      <div className="ambient-blob ambient-blob--teal" style={{ top: '40%', right: '20%', animationDelay: '-9s', width: '200px', height: '200px' }} />
       <h2 className={styles.heading}>👥 团队展示</h2>
       <p className={styles.subtitle}>
         我们是一支热爱技术的小团队，共同完成本次 Web 技术大作业
@@ -69,6 +74,9 @@ export default function Team() {
               <span className={styles.role}>{m.role}</span>
               <p className={styles.desc}>{m.desc}</p>
               <div className={styles.links}>
+                {m.page && (
+                  <Link to={m.page} className={styles.pageLink}>📂 查看作业</Link>
+                )}
                 <a href={m.links.github}>GitHub</a>
                 <a href={`mailto:${m.links.email}`}>Email</a>
               </div>

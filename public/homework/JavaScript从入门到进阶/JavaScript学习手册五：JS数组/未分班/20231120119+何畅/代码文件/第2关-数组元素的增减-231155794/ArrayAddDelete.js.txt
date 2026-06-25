@@ -1,0 +1,12 @@
+var testArray = [12,"java","js","c","c++",24,36,"python","c#","css"];
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /*********begin*********/
+    var moved = testArray.splice(testArray.length - a, a);
+      testArray = moved.concat(testArray);
+      return testArray[b];
+
+    /*********end*********/
+}

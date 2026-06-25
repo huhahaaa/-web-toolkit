@@ -443,7 +443,9 @@ export default function Pathfinding() {
   const canvasDim = gridSize * cellSize
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} section-ambient`}>
+      <div className="ambient-blob ambient-blob--indigo" style={{ top: '-5%', right: '8%', animationDelay: '0s' }} />
+      <div className="ambient-blob ambient-blob--teal" style={{ bottom: '-8%', left: '10%', animationDelay: '-4s' }} />
       <h2 className={styles.heading}>🧭 寻路可视化</h2>
       <p className={styles.hint}>
         点击网格切换墙壁 · 点击「设起点/终点」后点击格子重新定位

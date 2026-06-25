@@ -107,7 +107,9 @@ export default function Home() {
       {/* ============================================
           Featured Tools — Large Cards
           ============================================ */}
-      <section className={styles.featuredSection}>
+      <section className={`${styles.featuredSection} section-ambient`}>
+        <div className="ambient-blob ambient-blob--purple" style={{ top: '-10%', right: '5%', animationDelay: '0s' }} />
+        <div className="ambient-blob ambient-blob--indigo" style={{ bottom: '-15%', left: '3%', animationDelay: '-5s' }} />
         <div className={styles.sectionHeader}>
           <span className={styles.sectionLabel}>—— 精选工具</span>
           <h2 className={styles.sectionTitle}>高效工作，从这里开始</h2>
@@ -134,7 +136,9 @@ export default function Home() {
       {/* ============================================
           All Tools — Compact Grid
           ============================================ */}
-      <section className={styles.secondarySection}>
+      <section className={`${styles.secondarySection} section-ambient`}>
+        <div className="ambient-blob ambient-blob--violet" style={{ top: '5%', left: '8%', animationDelay: '-3s' }} />
+        <div className="ambient-blob ambient-blob--teal" style={{ bottom: '-10%', right: '5%', animationDelay: '-8s' }} />
         <div className={styles.sectionHeader}>
           <span className={styles.sectionLabel}>—— 更多工具</span>
           <h2 className={styles.sectionTitle}>探索全部功能</h2>
@@ -158,6 +162,7 @@ export default function Home() {
           Stats Strip
           ============================================ */}
       <section className={styles.statsStrip}>
+        <div className="ambient-blob ambient-blob--purple" style={{ top: '-30%', left: '50%', transform: 'translateX(-50%)', opacity: 0.3, width: '400px', height: '400px' }} />
         <div className={styles.statItem}>
           <span className={styles.statValue}>7</span>
           <span className={styles.statLabel}>功能模块</span>

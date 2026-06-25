@@ -89,7 +89,9 @@ export default function Timer() {
   }, [breakMode])
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} section-ambient`}>
+      <div className="ambient-blob ambient-blob--purple" style={{ top: '-8%', right: '10%', animationDelay: '0s' }} />
+      <div className="ambient-blob ambient-blob--teal" style={{ bottom: '-5%', left: '5%', animationDelay: '-6s' }} />
       <h2 className={styles.heading}>🍅 番茄钟</h2>
       <p className={styles.hint}>专注25分钟，休息5分钟，保持高效节奏</p>
 

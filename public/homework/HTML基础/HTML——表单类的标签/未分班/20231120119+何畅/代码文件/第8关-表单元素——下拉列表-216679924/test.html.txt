@@ -1,0 +1,9 @@
+选择版块：
+<!-- ********* Begin ********* -->
+<select>
+    <option>问答</option>
+    <option>分享</option>
+    <option>招聘</option>
+    <option selected="selected">客户端测试</option>
+</select
+<!-- ********* End ********* -->

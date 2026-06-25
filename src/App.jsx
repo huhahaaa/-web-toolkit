@@ -12,6 +12,7 @@ import Sorting from './pages/Sorting'
 import Pathfinding from './pages/Pathfinding'
 import Team from './pages/Team'
 import Auth from './pages/Auth'
+import Member from './pages/Member'
 
 export default function App() {
   return (
@@ -29,6 +30,7 @@ export default function App() {
               <Route path="pathfinding" element={<Pathfinding />} />
               <Route path="team" element={<Team />} />
               <Route path="auth" element={<Auth />} />
+              <Route path="member/:id" element={<Member />} />
             </Route>
           </Routes>
           </ScheduleProvider>

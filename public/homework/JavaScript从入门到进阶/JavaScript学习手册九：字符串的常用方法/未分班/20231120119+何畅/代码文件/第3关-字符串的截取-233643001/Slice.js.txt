@@ -1,0 +1,12 @@
+function mainJs(a,b) {
+	//请在此处编写代码
+	/********** Begin **********/
+     var idx = a.indexOf(b);
+      if (idx !== -1) {
+          return a.slice(0, idx) + a.slice(idx + b.length);
+      }
+    return a;
+      
+    
+	/********** End **********/
+}

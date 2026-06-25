@@ -1,0 +1,9 @@
+function mainJs(args1,args2,args3) {
+    //请在此处编写代码
+    /********** Begin **********/
+    var a = parseInt(args1);       // 将字符串转换为整数，遇到非数字停止
+    var b = parseInt(args2, 16);   // 将16进制字符串转换为整数
+    var c = parseFloat(args3);     // 将字符串转换为小数
+    /********** End **********/
+    return a + b + c;
+}

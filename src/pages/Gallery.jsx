@@ -13,7 +13,9 @@ export default function Gallery() {
   }
 
   return (
-    <div className={styles.page}>
+    <div className={`${styles.page} section-ambient`}>
+      <div className="ambient-blob ambient-blob--violet" style={{ top: '-5%', right: '12%', animationDelay: '0s' }} />
+      <div className="ambient-blob ambient-blob--purple" style={{ bottom: '-10%', left: '8%', animationDelay: '-4s' }} />
       <h2 className={styles.heading}>🖼️ 图片画廊</h2>
       <p className={styles.hint}>
         管理网站图片资源，其他页面会从这里加载配图。点击图片查看大图（待实现）。

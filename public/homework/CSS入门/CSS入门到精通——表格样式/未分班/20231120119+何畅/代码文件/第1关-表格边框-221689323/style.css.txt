@@ -1,0 +1,23 @@
+table {
+    /* ********** BEGIN ********** */
+    border-collapse: collapse; /* 设置折叠边框 */
+    border: 2px solid black;   /* 2px 粗的黑色实线边框 */
+    /* ********** END ********** */
+}
+
+th,
+td {
+    padding: .5em .75em;
+}
+
+th {
+    /* ********** BEGIN ********** */
+    border: 1px solid grey; /* 1px 粗的灰色实线边框 */
+    /* ********** END ********** */
+}
+
+td {
+    /* ********** BEGIN ********** */
+    border: 1px dotted grey; /* 1px 粗的灰色点线边框 */
+    /* ********** END ********** */
+}

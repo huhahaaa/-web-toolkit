@@ -3,34 +3,46 @@ import styles from './Team.module.css'
 
 const members = [
   {
-    name: '成员一',
-    role: '组长 / 前端开发',
-    desc: '负责项目架构、番茄钟与日程看板模块',
+    name: 'A',
+    role: '组长',
+    desc: '负责网页整体架构、模块细分、首页设计与团队展示页面设计',
     links: { github: '#', email: '#' },
   },
   {
-    name: '成员二',
-    role: '前端开发',
-    desc: '负责图片画廊模块、网站视觉设计',
+    name: 'B',
+    role: '组员',
+    desc: '负责排序可视化模块、算法实现与动画演示',
     links: { github: '#', email: '#' },
   },
   {
-    name: '成员三',
-    role: '前端开发',
-    desc: '负责排序可视化模块、算法实现',
+    name: 'C',
+    role: '组员',
+    desc: '负责寻路可视化模块、BFS 与 A* 算法实现',
     links: { github: '#', email: '#' },
   },
   {
-    name: '成员四',
-    role: '前端开发',
-    desc: '负责寻路可视化模块、团队展示页',
+    name: 'D',
+    role: '组员',
+    desc: '负责番茄钟模块、计时器逻辑与每日统计',
+    links: { github: '#', email: '#' },
+  },
+  {
+    name: 'E',
+    role: '组员',
+    desc: '负责图片画廊模块、上传管理与视觉素材',
+    links: { github: '#', email: '#' },
+  },
+  {
+    name: 'F',
+    role: '组员',
+    desc: '负责日程看板模块、任务管理与优先级系统',
     links: { github: '#', email: '#' },
   },
 ]
 
 export default function Team() {
   const { images } = useGallery()
-  const avatarPool = images.slice(0, 4)
+  const avatarPool = images.slice(0, 6)
 
   return (
     <div className={styles.page}>

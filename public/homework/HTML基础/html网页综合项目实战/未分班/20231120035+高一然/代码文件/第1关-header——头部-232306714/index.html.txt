@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>少儿教育</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			a{
+				color: #888888;
+				text-decoration: none;
+				font-size: 16px;
+			}
+			body {
+				background: #fff;
+				position: relative;
+			}
+			
+			#top{
+				width: 80%;
+				margin: 0 auto;
+			}
+			.bg-header {
+				border-bottom: 1px solid #eee;
+			}
+			
+            /*********  Begin **********/
+			#top .logo {
+	width: 120px;
+	height: 50px;
+	margin-top: 11px;
+    /*向左浮动*/
+    float: left;
+}
+
+#top .head-list {
+    /*向右浮动*/
+    float: right;
+}
+
+#top .head-list li {
+	padding: 0 20px;
+
+    /*垂直居中，高度为74px*/
+    line-height: 74px;
+
+    /*向左浮动*/
+    float: left;
+}
+            /*********  End  *********/
+			
+			#top .head-list li a:hover {
+				color: #333;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<header class="bg-top">
+			<div id="top" class="clearfix">
+				<img src="https://www.educoder.net/api/attachments/WWhNeWh5bGpDU0dOR0VmRlpnZzBVUT09" alt="logo" class="logo" />
+				<ul class="head-list">
+					<li>
+						<a href="javascript:void;">首页</a>
+					</li>
+					<li>
+						<a href="javascript:void;">班级设置</a>
+					</li>
+					<li>
+						<a href="javascript:void;">师资团队</a>
+					</li>
+					<li>
+						<a href="javascript:void;">童画日记</a>
+					</li>
+					<li>
+						<a href="javascript:void;">关于我们</a>
+					</li>
+					<li>
+						<a href="javascript:void;">联系我们</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+	</body>
+
+</html>

@@ -1,0 +1,6 @@
+难度系数：<br>
+<!-- ********* Begin ********* -->
+<input type="radio" name="degree"/>简单<br>
+<input type="radio" name="degree"/>中等<br>    
+<input type="radio" name="degree" disabled="disabled"/>困难<br>    
+<!-- ********* End ********* -->

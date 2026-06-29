@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>例子</title>
+  <style type="text/css">
+    html {color:black;}
+    h1 {color:darkcyan;}
+    h2 {color:lightSeaGreen;}
+    p {color:grey;}
+    a {text-decoration:line-through;}
+  </style>
+</head>
+<body>
+  <h1>标题1</h1>
+  <h2>标题2</h2>
+  <p>普通段落中<a href="#">删除的引用。</a></p>
+</body>
+</html>

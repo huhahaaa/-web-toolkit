@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h1>Hello</h1>
+    <!-- ********* Begin ********* -->
+
+    
+    <h1>welcome to Educoder</h1>
+        
+    <!-- ********* End ********* -->
+</body>
+</html>

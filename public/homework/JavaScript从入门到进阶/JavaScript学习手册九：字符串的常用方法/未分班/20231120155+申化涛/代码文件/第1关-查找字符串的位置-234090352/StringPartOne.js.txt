@@ -1,0 +1,11 @@
+function mainJs(a, b) {
+    /********** Begin **********/
+    let sum = 0;
+    let pos = a.indexOf(b);
+    while (pos !== -1) {
+        sum += pos;
+        pos = a.indexOf(b, pos + 1);
+    }
+    return sum;
+    /********** End **********/
+}

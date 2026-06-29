@@ -1,0 +1,26 @@
+function mainJs(a) {
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/
+    var sum = 0;			//用于存储和
+	var i=2;				//从2开始
+	while(i<=a)
+    {			//如果输入的数大于等于2
+		var j=2;
+		while(j<i)
+        {
+			if(i%j==0)
+            {
+				break;
+			}
+			j++;
+		}
+		if(j==i)
+        {
+			sum += i;
+		}
+		i++;
+	}
+	return sum;
+	/********** End **********/
+}

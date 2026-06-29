@@ -1,0 +1,12 @@
+var testArray = [12,"java","js","c","c++",24,36,"python","c#","css"];
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /*********begin*********/
+    var i;
+    for(i=testArray.length-a;i<testArray.length;i++)
+        testArray.unshift(testArray.pop());
+    return testArray[b];
+    /*********end*********/
+}

@@ -1,0 +1,11 @@
+function mainJs(a) {
+	//请在此处编写代码
+	/********** Begin **********/
+    /********** Begin **********/
+var pattern1 = /[a-zA-Z]\d/;
+var pattern2 = /A\D/;
+/********** End **********/
+    
+	/********** End **********/
+    return pattern1.test(a).toString()+","+pattern2.test(a).toString();
+}

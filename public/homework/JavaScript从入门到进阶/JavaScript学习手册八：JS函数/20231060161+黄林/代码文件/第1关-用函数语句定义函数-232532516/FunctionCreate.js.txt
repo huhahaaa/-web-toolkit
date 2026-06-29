@@ -1,0 +1,8 @@
+//请在此处编写代码
+/********** Begin **********/
+
+function mainJs(str1, str2) {
+    return str1 + str2;
+}
+
+/********** End **********/

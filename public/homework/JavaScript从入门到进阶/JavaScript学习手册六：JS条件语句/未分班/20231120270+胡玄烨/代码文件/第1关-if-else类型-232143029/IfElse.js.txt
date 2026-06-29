@@ -1,0 +1,16 @@
+function mainJs(a) {
+    a = parseInt(a);
+    let b = 0;
+	//请在此处编写代码
+	/********** Begin **********/
+    if (a < 60) {
+        b = 'unpass';
+        return b;
+    }
+    else {
+        b = 'pass';
+        return b;
+    }
+    
+	/********** End **********/
+}

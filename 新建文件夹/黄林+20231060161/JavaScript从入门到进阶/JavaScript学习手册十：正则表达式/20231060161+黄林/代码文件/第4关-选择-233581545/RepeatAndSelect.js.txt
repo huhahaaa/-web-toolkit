@@ -1,0 +1,12 @@
+function mainJs(a) {
+	//请在此处编写代码
+	/********** Begin **********/
+    /********** Begin **********/
+var pattern1 = /\d{17}(\d|X)/;
+var pattern2 = /(23|24)\d{4}/;
+var pattern3 = /(010|02[0-57-9])/;
+/********** End **********/
+    
+	/********** End **********/
+    return pattern1.test(a).toString()+","+pattern2.test(a).toString()+","+pattern3.test(a).toString();
+}

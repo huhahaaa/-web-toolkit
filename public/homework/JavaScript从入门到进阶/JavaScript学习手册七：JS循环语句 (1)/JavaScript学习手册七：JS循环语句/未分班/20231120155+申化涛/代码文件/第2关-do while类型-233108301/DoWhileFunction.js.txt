@@ -1,0 +1,24 @@
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+	//请在此处编写代码
+	/********** Begin **********/
+    // 保证 a 小于等于 b
+    if (a > b) {
+        let temp = a;
+        a = b;
+        b = temp;
+    }
+    let sum = 0;
+    // 如果没有整数在中间，直接返回 0
+    if (b - a <= 1) {
+        return sum;
+    }
+    let i = a + 1;
+    do {
+        sum += i;
+        i++;
+    } while (i < b);  // 注意不包含 b
+    return sum;
+	/********** End **********/
+}

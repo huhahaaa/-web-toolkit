@@ -1,0 +1,51 @@
+// 第一题：判断闰年
+function judgeLeapYear(year) {
+    year = parseInt(year);
+    /********** Begin **********/
+    if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
+        return year + "年是闰年";
+    } else {
+        return year + "年不是闰年";
+    }
+    /********** End **********/
+}
+
+// 第二题：状态规范化
+function normalizeInput(input) {
+    /********** Begin **********/
+    switch (input) {
+        case "中共党员":
+        case "党员":
+        case "共产党员":
+            return "中共党员";
+        case "中共预备党员":
+        case "预备党员":
+            return "中共预备党员";
+        case "团员":
+        case "共青团员":
+            return "共青团员";
+        case "大众":
+        case "群众":
+        case "市民":
+        case "人民":
+            return "群众";
+        default:
+            return "错误数据";
+    }
+    /********** End **********/
+}
+
+// 第三题：苹果等级评定
+function evaluateApple(weight, water) {
+    weight = parseInt(weight);
+    water = parseFloat(water);
+    /********** Begin **********/
+    if (weight >= 200) {
+        return "是优质品";
+    } else if (water >= 0.7) {
+        return "是优质品";
+    } else {
+        return "不是优质品";
+    }
+    /********** End **********/
+}

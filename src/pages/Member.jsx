@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import styles from './Member.module.css'
 
-const MANIFEST_URL = '/homework/manifest.json'
+const MANIFEST_URL = (id) => `/homework/manifest-${id}.json`
 
 // Simple syntax highlighting via HTML escaping + keyword spans
 function highlightCode(code, ext) {
@@ -95,14 +95,14 @@ export default function Member() {
   const [fileLoading, setFileLoading] = useState(false)
 
   useEffect(() => {
-    fetch(MANIFEST_URL)
+    fetch(MANIFEST_URL(id))
       .then(r => r.json())
       .then(data => {
         setManifest(data)
         setLoading(false)
       })
       .catch(() => setLoading(false))
-  }, [])
+  }, [id])
 
   const toggleSection = (themeIdx, sectionIdx) => {
     const key = `${themeIdx}-${sectionIdx}`

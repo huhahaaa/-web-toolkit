@@ -1,0 +1,44 @@
+var park = {
+    name:"Leaf Prak",
+    location:"Fifth Avenue",
+    todayTourists:4000
+};
+
+var computer = {
+    name:"Levenon",
+    price:"$800",
+    memory:"8G"
+};
+
+var city = {
+    name:"HangZhou",
+    country:"Chine",
+    population:9400000
+}
+
+function objectFunction(object) {
+//请在此处编写代码
+/********** Begin **********/
+var result = "";
+    // 使用 for...in 循环遍历对象的所有属性名
+    for (var key in object) {
+        // 判断属性是否为对象自身的属性（非原型链属性）
+        if (object.hasOwnProperty(key)) {
+            result += key + ":" + object[key] + ",";
+        }
+    }
+    return result;
+    
+
+/********** End **********/
+}
+
+function mainJs(a) {
+    a = parseInt(a);
+    switch(a) {
+        case 1:return objectFunction(park);
+        case 2:return objectFunction(computer);
+        case 3:return objectFunction(city);
+        default:break;
+    }
+}

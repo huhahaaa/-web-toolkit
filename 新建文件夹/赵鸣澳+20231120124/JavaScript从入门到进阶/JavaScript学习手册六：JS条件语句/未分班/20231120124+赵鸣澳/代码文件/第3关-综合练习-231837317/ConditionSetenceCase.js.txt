@@ -1,0 +1,56 @@
+//判断一个年份是否为闰年
+function judgeLeapYear(year) {
+	//请在此处编写代码
+	/********** Begin **********/
+    if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+        return year + "年是闰年";
+    }
+    return year + "年不是闰年";
+    
+	/********** End **********/
+}
+ 
+//对输入进行规范化处理
+function normalizeInput(input) {
+    /********** Begin **********/
+    switch (input) {
+        case "中共党员":
+        case "党员":
+        case "共产党员":
+            return "中共党员";
+            break;
+        case "中共预备党员":
+        case "预备党员":
+            return "中共预备党员";
+            break;
+        case "团员":
+        case "共青团员":
+            return "共青团员";
+            break;
+        case "大众":
+        case "群众":
+        case "市民":
+        case "人民":
+            return "群众";
+            break;
+        default:
+            return "错误数据";
+    }
+
+    
+    
+	/********** End **********/
+}
+ 
+//判断苹果是否为优质品
+function evaluateApple(weight,water) {
+	/********** Begin **********/
+    if ((weight >= 200) || ((water >= 0.7) && (weight < 200))) {
+        return "是优质品";
+    } else {
+        
+        return "不是优质品";
+    }
+    
+	/********** End **********/
+}

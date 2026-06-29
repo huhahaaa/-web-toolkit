@@ -1,0 +1,16 @@
+var testArray = [12,"java","js","c","c++",24,36,"python","c#","css"];
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /*********begin*********/
+/*********begin*********/
+    for (var i = 0; i < a; i++) {
+        var lastElement = testArray.pop(); // 弹出尾部元素
+        testArray.unshift(lastElement);   // 插入到头部
+    }
+    return testArray[b]; // 返回索引 b 处的元素
+    /*********end*********/
+
+    /*********end*********/
+}

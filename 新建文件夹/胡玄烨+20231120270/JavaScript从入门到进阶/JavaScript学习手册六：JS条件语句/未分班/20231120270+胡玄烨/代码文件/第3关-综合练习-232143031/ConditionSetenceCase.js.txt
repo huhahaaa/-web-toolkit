@@ -1,0 +1,64 @@
+//判断一个年份是否为闰年
+function judgeLeapYear(year) {
+	//请在此处编写代码
+    /********** Begin **********/
+    year = parseInt(year);
+    let b = 0;
+    if (year % 100 == 0)
+    {
+        if (year % 400 == 0)
+        {
+          b=year+"年是闰年";
+        }else{
+            b=year+"年不是闰年";
+             }
+    }else {
+        if (year % 4 == 0)
+        {
+             b=year+"年是闰年";
+        } else {
+             b=year+"年不是闰年";
+               }
+           }
+    return b;
+	/********** End **********/
+}
+ 
+//对输入进行规范化处理
+function normalizeInput(input) {
+    /********** Begin **********/
+    let b = "";
+    switch (input) {
+        case "中共党员": b = "中共党员"; break;
+        case "党员": b = "中共党员"; break;
+        case "共产党员": b = "中共党员"; break;
+        case "中共预备党员": b = "中共预备党员"; break;
+        case "预备党员": b = "中共预备党员"; break;
+        case "团员": b = "共青团员"; break;
+        case "共青团员": b = "共青团员"; break;
+        case "大众": b = "群众"; break;
+        case "群众": b = "群众"; break;
+        case "市民": b = "群众"; break;
+        case "人民": b = "群众"; break;
+        default: b = "错误数据"; break;
+    }
+    return b;
+	/********** End **********/
+}
+ 
+//判断苹果是否为优质品
+function evaluateApple(weight,water) {
+    /********** Begin **********/
+    let b = "";
+    if (weight >= 200) {
+        b = "是优质品";
+    } else {
+        if (water>=0.7) {
+            b = "是优质品";
+        } else {
+            b = "不是优质品";
+        }
+    }
+    return b;
+	/********** End **********/
+}

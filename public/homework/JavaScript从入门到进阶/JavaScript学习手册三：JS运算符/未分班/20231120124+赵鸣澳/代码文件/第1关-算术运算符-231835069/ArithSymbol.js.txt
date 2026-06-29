@@ -1,0 +1,13 @@
+function mainJs(a,b) {
+//请在此处编写代码
+    /***********Begin**********/
+
+
+    var c = (parseInt(a)) %(parseInt(b));
+    a = String(a);
+    b = String(b);
+    c = String(c);
+ 
+/*********End************/
+    return a+b+c;
+}

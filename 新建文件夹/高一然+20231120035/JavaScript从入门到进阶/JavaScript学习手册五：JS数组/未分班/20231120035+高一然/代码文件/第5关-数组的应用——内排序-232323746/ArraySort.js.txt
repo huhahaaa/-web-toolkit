@@ -1,0 +1,28 @@
+function mainJs(a) {
+    var arr = a.split(",");
+    for(var i = 0;i < arr.length;i++) {
+        arr[i] = parseInt(arr[i]);
+    }
+    //请在此处编写代码
+    /*********begin*********/
+    var result = [];
+    var n = arr.length;
+    for (var i = 0; i < n-1; i++) {   // 只需 n-1 趟
+        var end = n - i - 1;
+        var maxIndex = 0;
+        for (var j = 1; j <= end; j++) {
+            if (arr[j] > arr[maxIndex]) {
+                maxIndex = j;
+            }
+        }
+        result.push(maxIndex);
+        // 交换
+        if (maxIndex !== end) {
+            var temp = arr[maxIndex];
+            arr[maxIndex] = arr[end];
+            arr[end] = temp;
+        }
+    }
+    return result;
+    /*********end*********/
+}

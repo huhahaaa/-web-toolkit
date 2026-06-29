@@ -1,0 +1,40 @@
+function mainJs(a) {
+    var arr = a.split(",");
+    for(var k = 0,length = arr.length;k < length;k++) {
+        arr[k] = parseInt(arr[k]);
+    }
+	//请在此处编写代码
+	/********** Begin **********/
+    
+    /********** Begin **********/
+    var firstPrime; // 用于记录找到的第一个质数
+
+    // 遍历整个数组
+    for (var i = 0; i < arr.length; i++) {
+        var num = arr[i];
+        
+        // 质数必须大于 1
+        if (num <= 1) {
+            continue;
+        }
+
+        var isPrime = true;
+        // 判定当前数字 num 是否为质数
+        for (var j = 2; j * j <= num; j++) {
+            if (num % j === 0) {
+                isPrime = false;
+                break; // 不是质数，跳出内层判定循环
+            }
+        }
+
+        // 如果找到了第一个质数
+        if (isPrime) {
+            firstPrime = num;
+            break; // 关键：跳出外层遍历循环，不再继续往下找
+        }
+    }
+
+    return firstPrime;
+    /********** End **********/
+	/********** End **********/
+}

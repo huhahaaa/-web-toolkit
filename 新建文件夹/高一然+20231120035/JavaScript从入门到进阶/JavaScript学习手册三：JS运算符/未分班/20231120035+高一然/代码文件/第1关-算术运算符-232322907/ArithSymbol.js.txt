@@ -1,0 +1,9 @@
+function mainJs(a,b) {
+//请在此处编写代码
+/***********Begin**********/
+    var numA = parseInt(a, 10);
+    var numB = parseInt(b, 10);
+    var c = numA % numB;
+    return a + b + c;
+/*********End************/
+}

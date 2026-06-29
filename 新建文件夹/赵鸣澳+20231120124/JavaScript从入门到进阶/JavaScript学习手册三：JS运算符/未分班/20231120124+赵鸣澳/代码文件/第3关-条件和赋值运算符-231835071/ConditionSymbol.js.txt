@@ -1,0 +1,10 @@
+function mainJs(a,b) {
+//请在此处编写代码
+/*********begin*********/
+    if (a > b) {
+        return a;
+    } else
+        return b;
+ 
+/*********end*********/
+}

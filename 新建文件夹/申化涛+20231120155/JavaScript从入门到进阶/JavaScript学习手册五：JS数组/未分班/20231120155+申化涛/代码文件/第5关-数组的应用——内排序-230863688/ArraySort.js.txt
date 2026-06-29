@@ -1,0 +1,26 @@
+function mainJs(a) {
+    var arr = a.split(",");
+    for(var i = 0;i < arr.length;i++) {
+        arr[i] = parseInt(arr[i]);
+    }
+    /*********begin*********/
+    var result = [];
+    var n = arr.length;
+    // 只需要进行 n-1 趟选择
+    for (var i = 0; i < n - 1; i++) {
+        var maxIndex = 0;
+        // 待排序子数组范围为 [0, n-1-i]
+        for (var j = 1; j <= n - 1 - i; j++) {
+            if (arr[j] > arr[maxIndex]) {
+                maxIndex = j;
+            }
+        }
+        result.push(maxIndex);
+        // 交换最大元素到子数组末尾
+        var temp = arr[maxIndex];
+        arr[maxIndex] = arr[n - 1 - i];
+        arr[n - 1 - i] = temp;
+    }
+    return result;
+    /*********end*********/
+}

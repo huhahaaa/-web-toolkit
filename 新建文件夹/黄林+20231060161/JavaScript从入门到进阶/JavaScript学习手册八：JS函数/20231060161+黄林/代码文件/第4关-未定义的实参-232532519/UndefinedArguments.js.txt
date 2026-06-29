@@ -1,0 +1,14 @@
+function mainJs(a,b,c,d) {
+	//请在此处编写代码
+	/********** Begin **********/
+    // 为未定义或传入 undefined 的参数设置默认值
+    if (a === undefined) a = "green";
+    if (b === undefined) b = "green";
+    if (c === undefined) c = "red";
+    if (d === undefined) d = "yellow";
+
+    // 拼接并返回结果
+    return a + "-" + b + "-" + c + "-" + d;
+    
+	/********** End **********/
+}

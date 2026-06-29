@@ -1,0 +1,24 @@
+function mainJs(a) {
+    a = parseInt(a);
+    //请在此处编写代码
+    /********** Begin **********/
+    var sum = 0;
+    var num = 2;
+    while (num <= a) {
+        var isPrime = true;
+        var i = 2;
+        while (i * i <= num) {
+            if (num % i === 0) {
+                isPrime = false;
+                break;
+            }
+            i++;
+        }
+        if (isPrime) {
+            sum += num;
+        }
+        num++;
+    }
+    return sum;
+    /********** End **********/
+}

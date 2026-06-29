@@ -1,0 +1,20 @@
+function mainJs(a, b) {
+    /********** Begin **********/
+    // 标记需要大写的所有位置
+    const mark = new Array(a.length).fill(false);
+    let pos = a.indexOf(b);
+    while (pos !== -1) {
+        for (let i = 0; i < b.length; i++) {
+            mark[pos + i] = true;
+        }
+        // 从下一个字符开始继续搜索，允许重叠匹配
+        pos = a.indexOf(b, pos + 1);
+    }
+    // 构建结果字符串
+    let result = "";
+    for (let i = 0; i < a.length; i++) {
+        result += mark[i] ? a[i].toUpperCase() : a[i];
+    }
+    return result;
+    /********** End **********/
+}

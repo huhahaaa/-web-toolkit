@@ -1,0 +1,18 @@
+function mainJs(a) {
+	//请在此处编写代码
+	/********** Begin **********/
+    // 使用正则表达式 /[\s,]+/ 匹配一个或多个空格或逗号进行分割
+    var words = a.split(/[\s,]+/);
+    
+    // 如果最后切出了空字符串（比如末尾有逗号或空格），需要过滤掉
+    if (words[words.length - 1] === "") {
+        words.pop();
+    }
+    if (words[0] === "") {
+        words.shift();
+    }
+
+    return words.length;
+    
+	/********** End **********/
+}

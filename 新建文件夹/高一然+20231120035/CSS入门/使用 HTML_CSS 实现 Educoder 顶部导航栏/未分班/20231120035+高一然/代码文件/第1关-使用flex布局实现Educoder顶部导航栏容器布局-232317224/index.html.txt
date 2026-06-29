@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Educoder</title>
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <script src="step1/verify.js"></script>
+</head>
+<style type="text/css">
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .color-white {
+    color: white;
+  }
+
+  /*********** Begin ************/
+  header {
+    /* 开启弹性布局 */
+    display: flex;
+    /* 两端对齐 */
+    justify-content: space-between;
+    /* 导航栏高度60px */
+    height: 60px;
+    /* 背景色 #24292D */
+    background-color: #24292D;
+    /* 页面最小宽度1200px */
+    min-width: 1200px;
+  }
+  /*********** End ************/
+</style>
+<body>
+<div class="container">
+  <header>
+    <div class="left-wrap color-white">左边容器</div>
+    <div class="right-wrap color-white">右边容器</div>
+  </header>
+</div>
+</body>
+</html>

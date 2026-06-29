@@ -1,0 +1,10 @@
+
+    //请在此处编写代码
+/********** Begin **********/
+function mainJs(a) {
+    a = a.replace(",","\n");
+    var pattern = /js\n/;
+   
+    return pattern.test(a).toString();
+}
+ /********** End **********/

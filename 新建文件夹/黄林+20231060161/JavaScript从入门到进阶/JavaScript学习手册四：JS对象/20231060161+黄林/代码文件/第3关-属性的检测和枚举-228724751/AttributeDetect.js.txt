@@ -1,0 +1,22 @@
+var orange = {
+    weight:"200g",
+    color:"orange",
+    taste:"sour"
+};
+
+var car = {
+    brand:"Jaguar",
+    price:"$80000",
+    model:"XFL"
+}
+
+function mainJs(a){
+    //请在此处编写代码
+    /**********begin**********/
+    if (orange.hasOwnProperty(a)) {
+        return Object.keys(orange).join("");
+    } else if (car.hasOwnProperty(a)) {
+        return Object.keys(car).join("");
+    }
+    /**********end**********/
+}

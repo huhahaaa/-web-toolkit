@@ -1,0 +1,16 @@
+<!-- ********* Begin ********* -->
+<style>
+textarea{
+width:200px;
+            height:120px;
+    
+    
+}
+</style>
+
+
+用一句话描述自己的特点：<textarea maxlength="15"></textarea>
+
+
+    
+<!-- ********* End ********* -->

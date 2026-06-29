@@ -1,0 +1,11 @@
+function mainJs(a,b,c,d) {
+	//请在此处编写代码
+	/********** Begin **********/
+    if(!a) a="green";
+	if(!b) b="green";
+	if(!c) c="red";
+	if(!d) d="yellow"; 
+    return a+"-"+b+"-"+c+"-"+d;
+	/********** End **********/
+}
+

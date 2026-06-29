@@ -1,0 +1,11 @@
+function mainJs(a){
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/
+    let reversed = 0;
+    for (; a > 0; a = Math.floor(a / 10)) {
+        reversed = reversed * 10 + a % 10;
+    }
+    return reversed;
+	/********** End **********/
+}

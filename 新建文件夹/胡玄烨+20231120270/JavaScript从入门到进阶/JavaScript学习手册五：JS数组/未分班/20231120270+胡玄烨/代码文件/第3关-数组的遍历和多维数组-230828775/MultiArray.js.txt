@@ -1,0 +1,24 @@
+var arr = [1,2,3,4,5,6,7,8,9,0,10,11,12,13,14,15,16,17,18,19,20,21,23,22];
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /*********begin*********/
+    var shuzu = new Array(a);
+    for(var i=0;i<a;i++)
+        shuzu[i] = new Array(b);
+    var hang=0;
+    var lie=0;
+    for(var i=0;i<arr.length;i++){
+        shuzu[hang][lie]=arr[i];
+        lie++;
+        if(lie==b){
+            hang++;
+            lie=0;
+        }
+        if(hang==a)
+            break;
+    }
+    return shuzu;
+    /*********end*********/
+}

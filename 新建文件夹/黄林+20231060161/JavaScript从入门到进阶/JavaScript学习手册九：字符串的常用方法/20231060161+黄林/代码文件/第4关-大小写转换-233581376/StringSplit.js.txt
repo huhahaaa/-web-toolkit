@@ -1,0 +1,11 @@
+function mainJs(a,b) {
+	//请在此处编写代码
+	/********** Begin **********/
+    // 将匹配的子串 b 转换为大写
+    var upperB = b.toUpperCase();
+    
+    // 用小写的 b 将字符串 a 分割成数组，再用大写的 b 拼接回去
+    return a.split(b).join(upperB);
+    
+	/********** End **********/
+}

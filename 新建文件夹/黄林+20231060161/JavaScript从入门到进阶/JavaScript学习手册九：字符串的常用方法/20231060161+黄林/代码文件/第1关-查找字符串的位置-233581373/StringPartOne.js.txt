@@ -1,0 +1,17 @@
+function mainJs(a,b) {
+	//请在此处编写代码
+	/********** Begin **********/
+    var sum = 0;
+    var index = a.indexOf(b);
+    
+    while (index !== -1) {
+        sum += index;
+        // 从当前找到的位置的下一个字符开始继续查找
+        index = a.indexOf(b, index + 1);
+    }
+    
+    return sum;
+    
+	/********** End **********/
+
+}

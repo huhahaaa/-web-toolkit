@@ -1,0 +1,20 @@
+var testArray = [12,"java","js","c","c++",24,36,"python","c#","css"];
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /*********begin*********/
+    var length = testArray.length;
+    // if (a != 0) {
+    //     for (var i = length - 1; i > length - a; i--) {
+    //         var newArray = testArray.unshift(testArray[i]);
+    //     }
+    // }
+    for (var i = 0; i < a; i++) {
+        testArray.unshift(testArray.pop());
+    }
+ 
+    return testArray[b];
+ 
+    /*********end*********/
+}

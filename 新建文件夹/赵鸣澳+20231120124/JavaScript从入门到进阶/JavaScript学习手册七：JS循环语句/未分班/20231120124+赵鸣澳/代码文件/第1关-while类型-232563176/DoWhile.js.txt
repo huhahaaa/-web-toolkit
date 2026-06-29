@@ -1,0 +1,32 @@
+function mainJs(a) {
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/	
+	var sum=0;
+	var zhishu=1;	
+	if(a>=2)
+	sum+=2;
+	var i=3;
+	while(i<=a)
+	{
+		var j=2;
+		while(j<=i**0.5)//质数的因数
+		{
+			if(i%j==0)//因子
+			{
+				zhishu=0;
+				break;
+			}
+            j++;
+
+            
+		}
+		if(zhishu==1)
+		sum+=i;
+		i++;
+		zhishu=1;
+	}
+	return sum;
+       
+	/********** End **********/
+}

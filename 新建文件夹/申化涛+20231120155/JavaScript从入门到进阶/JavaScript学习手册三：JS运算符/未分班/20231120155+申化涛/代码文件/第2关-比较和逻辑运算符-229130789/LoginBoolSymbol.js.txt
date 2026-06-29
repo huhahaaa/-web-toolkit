@@ -1,0 +1,12 @@
+function mainJs(a,b) {
+//请在此处编写代码
+/********** Begin **********/
+if (a > b) {
+    // a 大于 b，返回 a 逻辑与 b
+    return a && b;
+} else {
+    // 否则返回 a 逻辑取反
+    return !a;
+}
+/********** End **********/
+}

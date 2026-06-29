@@ -1,0 +1,12 @@
+function mainJs(a,b) {
+    var a = parseInt(a);
+    var b = parseInt(b);
+/*********begin*********/
+    // 第一行：按题目要求加括号
+    var c = ((--a + b) * b) == 24 ? 1 : 0;
+    var d = 4;
+    // 第二行：严格按照题目要求：c*d + d
+    var e = c * d + d;
+/*********end*********/
+    return e;
+}

@@ -1,0 +1,11 @@
+function mainJs(a) {
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/
+    var myFunc=function sum(a){
+		return a%10+(a-a%10)/10%10+(a-a%100)/100;
+	}
+    
+	/********** End **********/
+    return myFunc(a);
+}

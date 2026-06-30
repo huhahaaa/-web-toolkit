@@ -1,0 +1,12 @@
+function mainJs(a) {
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/
+    
+    function myFunc(i) {
+        return i%10+parseInt((i%100)/10)+parseInt(i/100);
+  
+}
+	/********** End **********/
+    return myFunc(a);
+}

@@ -1,0 +1,16 @@
+function mainJs(a){
+    a = parseInt(a);
+	//请在此处编写代码
+    /********** Begin **********/
+
+    
+	//a是整数
+	var ans=0;
+	for(var i=a;i>=1;i=(i-i%10)/10)
+	{
+		ans=ans*10+(i%10);
+	}
+	return ans;
+   
+	/********** End **********/
+}

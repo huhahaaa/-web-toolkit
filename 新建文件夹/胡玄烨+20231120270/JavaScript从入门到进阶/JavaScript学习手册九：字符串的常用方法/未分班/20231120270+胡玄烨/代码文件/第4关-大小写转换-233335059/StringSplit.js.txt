@@ -1,0 +1,11 @@
+function mainJs(a,b) {
+	//请在此处编写代码
+	/********** Begin **********/
+    var string = b.toUpperCase();
+    for(var i=0;i<a.length;i++){
+        str = a.replace(new RegExp(b,"g"),string);
+
+    }
+    return str;
+	/********** End **********/
+}

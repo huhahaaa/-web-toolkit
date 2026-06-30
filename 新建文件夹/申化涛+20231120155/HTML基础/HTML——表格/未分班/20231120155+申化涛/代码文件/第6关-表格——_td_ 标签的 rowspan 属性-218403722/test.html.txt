@@ -1,0 +1,23 @@
+<table border="2" cellspacing="0" width="200">
+<!-- ********* Begin ********* -->
+ <tr>
+        <td>商品</td>
+        <td>数量</td>
+        <td>单价</td>
+        <td>备注</td>
+    </tr>
+    <tr>
+        <td>短袖</td>
+        <td>70</td>
+        <td>30</td>
+        <td rowspan="2">无</td>
+    </tr>
+    <tr>
+        <td>裤子</td>
+        <td>50</td>
+        <td>30</td>
+    </tr>
+    
+    
+<!-- ********* End ********* -->
+</table>

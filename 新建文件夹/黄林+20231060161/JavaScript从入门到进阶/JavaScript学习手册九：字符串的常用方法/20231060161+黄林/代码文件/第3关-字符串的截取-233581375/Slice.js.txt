@@ -1,0 +1,21 @@
+function mainJs(a,b) {
+	//请在此处编写代码
+	/********** Begin **********/
+    // 找到杂质 b 的起始索引位置
+    var index = a.indexOf(b);
+    
+    // 如果找不到杂质，直接返回原序列
+    if (index === -1) {
+        return a;
+    }
+    
+    // 截取 b 之前的字符串
+    var before = a.slice(0, index);
+    // 截取 b 之后的字符串 (跳过整个 b 的长度)
+    var after = a.slice(index + b.length);
+    
+    // 拼接并返回无杂质的序列
+    return before + after;
+    
+	/********** End **********/
+}

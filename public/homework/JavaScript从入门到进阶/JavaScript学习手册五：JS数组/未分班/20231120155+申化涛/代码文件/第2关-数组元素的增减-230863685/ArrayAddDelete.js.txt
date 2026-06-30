@@ -1,0 +1,12 @@
+var testArray = [12,"java","js","c","c++",24,36,"python","c#","css"];
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /*********begin*********/
+    var last = testArray.slice(-a);
+    var first = testArray.slice(0, testArray.length - a);
+    var newArray = last.concat(first);
+    return newArray[b];
+    /*********end*********/
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>少儿教育</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul,
+			li {
+				list-style: none;
+			}
+			
+			a {
+				color: #888888;
+				text-decoration: none;
+				font-size: 16px;
+			}
+			
+			body {
+				background: #f7f7f7;
+				position: relative;
+			}
+			
+			#nav {
+				width: 100%;
+				margin: 0 auto;
+				padding: 40px 0;
+			}
+			
+			#nav .nav-item {
+				width: 21%;
+				height: auto;
+				text-align: center;
+				color: #ff7415;
+				padding-top: 10px;
+				float: left;
+				transition: all .3s ease-in;
+				-moz-transition: all .3s ease-in;
+				-webkit-transition: all .3s ease-in;
+			}
+			
+			#nav .nav-item:not(:last-child) {
+				margin-right: 28px;
+			}
+			
+			#nav .nav-item:hover {
+				border: 1px solid #FF7415;
+			}
+			/*----------  Begin  -----------*/
+			#nav .nav-item:hover .nav-info {
+				/*向上移动10px*/
+				transform: translate(0, -10px);
+			}
+	
+			#nav .nav-item .nav-info {
+				/*给所有属性添加0.3s的 平滑过渡效果(linear),不考虑兼容性*/
+				transition: all 0.3s linear;
+			}
+			/*------------ End --------------*/
+			
+			#nav .nav-item img {
+				width: 64px;
+				height: 64px;
+				margin: 20px auto;
+			}
+			
+			#nav .nav-item .nav-title {
+				font-size: 22px;
+				margin-bottom: 12px;
+			}
+		</style>
+	</head>
+
+	<body>
+		
+			<div id="nav">
+				<div class="nav-item">
+					<div class="nav-info">
+						<img src="https://www.educoder.net/attachments/download/Y0l0N0FXZU5jQm00cFpReUcybTBYUT09" alt="cecorate" />
+						<p class="nav-title">儿童装饰画</p>
+						<p>装饰</p>
+					</div>
+				</div>
+				<div class="nav-item">
+					<div class="nav-info">
+						<img src="https://www.educoder.net/attachments/download/OExTMmNZcWxvaFJ5a1hyaE42TUpKQT09" alt="cecorate" />
+						<p class="nav-title">趣味素描</p>
+						<p>sketch</p>
+					</div>
+				</div>
+				<div class="nav-item">
+					<div class="nav-info">
+						<img src="https://www.educoder.net/attachments/download/dkhFQkwzL1FvcE5tL3JjRmFvVnVGQT09" alt="cecorate" />
+						<p class="nav-title">漫画阅读</p>
+						<p>comic</p>
+					</div>
+				</div>
+				<div class="nav-item">
+					<div class="nav-info">
+						<img src="https://www.educoder.net/attachments/download/SVJHOUN6d0cyRDFDZFBvVEJKWU9oUT09" alt="cecorate" />
+						<p class="nav-title">手工制作</p>
+						<p>manual</p>
+					</div>
+				</div>
+			</div>
+	
+	</body>
+
+</html>

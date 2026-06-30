@@ -1,0 +1,16 @@
+function mainJs(myArray) {
+    myArray = myArray.split(",");
+    //请在此处编写代码
+    /*********begin*********/
+    var posA = [];
+    var posB = [];
+    for (var i = 0; i < myArray.length; i++) {
+        if (myArray[i] === "a") {
+            posA.push(i);
+        } else if (myArray[i] === "b") {
+            posB.push(i);
+        }
+    }
+    return posA.concat(posB);
+    /*********end*********/
+}

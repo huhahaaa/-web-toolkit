@@ -1,0 +1,13 @@
+function mainJs(a) {
+	//请在此处编写代码
+	/********** Begin **********/
+    var b = "";
+    
+    for (var i = 0; i < 6; i++){
+        
+        b += a.charAt(i);
+
+    }
+    return b;
+	/********** End **********/
+}

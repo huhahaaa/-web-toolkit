@@ -1,0 +1,12 @@
+function mainJs(a){
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/
+   a = a.toString();
+	var sum="";			//初始化
+	for(var i=0;i<a.length;i++){
+		sum += a[a.length-i-1];		//反向拼接字符串
+	}
+	return sum;
+	/********** End **********/
+}

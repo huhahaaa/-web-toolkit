@@ -1,0 +1,24 @@
+function mainJs(myArray) {
+    myArray = myArray.split(",");
+    //请在此处编写代码
+    /*********begin*********/
+/*********begin*********/
+    var arrA = [];
+    var arrB = [];
+    
+    // 遍历数组，抓取 "a" 和 "b" 的所有索引
+    for (var i = 0; i < myArray.length; i++) {
+        if (myArray[i] === "a") {
+            arrA.push(i); // 记录 "a" 的位置
+        }
+        if (myArray[i] === "b") {
+            arrB.push(i); // 记录 "b" 的位置
+        }
+    }
+    
+    // 使用 concat() 合并两个位置数组并返回
+    return arrA.concat(arrB);
+    /*********end*********/
+
+    /*********end*********/
+}

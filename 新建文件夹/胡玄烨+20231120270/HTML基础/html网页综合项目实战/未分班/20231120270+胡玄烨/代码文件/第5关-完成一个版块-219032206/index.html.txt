@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>少儿教育</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			ul,
+			li {
+				list-style: none;
+			}
+			
+			a {
+				color: #888888;
+				text-decoration: none;
+				font-size: 16px;
+			}
+			
+			body {
+				background: #f7f7f7;
+				position: relative;
+			}
+			
+			.diary-block {
+				width: 90%;
+				height: 450px;
+				padding: 0 40px;
+				margin: 40px auto;
+			}
+		
+			.diary-item {
+				width: 26%;
+				float: left;
+				overflow: hidden;
+             /*---------- Begin ----------*/
+                 border-radius: 20px 20px 20px 20px;
+				/*设置圆角为20px*/
+				
+				 box-shadow: 10px 10px 20px #ccc, -10px 10px 20px #ccc;
+				/*设置左边,右边,下边的外部阴影,
+			      水平阴影和垂直阴影的值为10px,模糊距离为20px,颜色为#ccc  */
+				
+				
+			}
+			/*---------- End ----------*/
+			
+			.diary-item:not(:last-child) {
+				margin-right: 7%;
+			}
+			
+			.diary-item .diary-img {
+				overflow: hidden;
+			}
+			
+			.diary-item .diary-img img {
+				width: 100%;
+				height: 232px;
+				transition: all .3s ease-in;
+			}
+			
+			.diary-item .diary-img img:hover {
+				transform-origin: center;
+				transform: scale(1.1);
+			}
+			
+			.diary-item .diary-details {
+				height: 180px;
+				padding: 10px 30px;
+				color: #888;
+			}
+			
+			.diary-item .diary-details p {
+				line-height: 26px;
+			}
+			
+			.diary-item .diary-details .diary-describe {
+				height: 72px;
+				/*-------- Begin --------*/
+				/*自动隐藏文字*/
+				overflow: hidden;
+    text-overflow:ellipsis; 
+				
+				/*文字隐藏后添加省略号*/
+				
+				
+				/*-------- End ----------*/
+				
+				display: -webkit-box;
+				-webkit-box-orient: vertical;
+				-webkit-line-clamp: 3;
+				overflow: hidden;
+				margin-top: 10px;
+				line-height: 24px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="diary-block">
+			<div class="diary-item clearfix">
+				<div class="diary-img">
+					<img src="https://www.educoder.net/attachments/download/QjNTUmpYQS9zMWdDQnJ6QTg2TTFDQT09" alt="" />
+				</div>
+				<div class="diary-details">
+					<p>如何选择培训机构 ？</p>
+					<p>2017&nbsp;06-15</p>
+					<p class="diary-describe">
+						起飞页推崇用户自己创建网站并享受建站所带来的乐趣，因此我们为您准备了一套安全、稳创建网站并享受建站创建网站并享受建站
+					</p>
+				</div>
+			</div>
+			<div class="diary-item">
+				<div class="diary-img">
+					<img src="https://www.educoder.net/attachments/download/RVlzMWxCNHdGUVJScnBhUXJYaTVpQT09" alt="" />
+				</div>
+				<div class="diary-details">
+					<p>如何选择培训机构 ？</p>
+					<p>2017&nbsp;06-15</p>
+					<p class="diary-describe">
+						起飞页推崇用户自己创建网站并享受建站所带来的乐趣，因此我们为您准备了一套安全、稳创建网站并享受建站创建网站并享受建站
+					</p>
+				</div>
+			</div>
+			<div class="diary-item">
+				<div class="diary-img">
+					<img src="https://www.educoder.net/attachments/download/NkUxeFRXRzNqVWNyV2JpcUZsT1Jqdz09" alt="" />
+				</div>
+				<div class="diary-details">
+					<p>如何选择培训机构 ？</p>
+					<p>2017&nbsp;06-15</p>
+					<p class="diary-describe">
+						起飞页推崇用户自己创建网站并享受建站所带来的乐趣，因此我们为您准备了一套安全、稳创建网站并享受建站创建网站并享受建站
+					</p>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+</html>

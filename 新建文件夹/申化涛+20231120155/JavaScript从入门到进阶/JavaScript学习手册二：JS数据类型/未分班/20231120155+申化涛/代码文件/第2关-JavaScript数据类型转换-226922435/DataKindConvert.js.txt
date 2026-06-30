@@ -1,0 +1,10 @@
+//你需要把字符串args1,args2,args3转换为数字a,b和c.
+function mainJs(args1,args2,args3) {
+	//请在此处编写代码
+	/********** Begin **********/
+    var a = parseInt(args1);          // 转整数（支持带字母）
+    var b = parseInt(args2, 16);      // 16进制字符串转整数
+    var c = parseFloat(args3);        // 纯小数字符串转小数
+	/********** End **********/
+    return a+b+c;
+}

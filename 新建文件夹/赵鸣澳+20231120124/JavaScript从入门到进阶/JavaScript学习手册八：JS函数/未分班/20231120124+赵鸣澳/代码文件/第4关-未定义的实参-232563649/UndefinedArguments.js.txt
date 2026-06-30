@@ -1,0 +1,26 @@
+function mainJs(a,b,c,d) {
+	//请在此处编写代码
+	/********** Begin **********/
+    if(a===undefined) {
+        return "green-green-red-yellow";
+
+    } else {
+        
+        if(b===undefined){
+            return a+"-green-red-yellow";
+        } if(c===undefined){
+                return a+"-"+b+"-red-yellow";
+            }if(d===undefined){
+                return a + "-" + b + "-" + c + "-yellow";
+                     
+                }
+                else{
+                return a + "-" + b + "-" + c + "-" + d;
+                     
+                }
+    }
+
+    return a+b+c+d;
+	/********** End **********/
+}
+

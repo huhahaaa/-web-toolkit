@@ -1,0 +1,33 @@
+var orange = {
+    weight:"200g",
+    color:"orange",
+    taste:"sour"
+};
+var car = {
+    brand:"Jaguar",
+    price:"$80000",
+    model:"XFL"
+}
+function mainJs(a){
+	//请在此处编写代码
+    /*********begin*********/
+    // 定义一个空字符串用来存放结果
+    var result = "";
+    
+    // 判断属性a属于哪个对象
+    if (a in orange) {
+        // 遍历orange所有属性并拼接
+        for (var key in orange) {
+            result += key;
+        }
+    } else if (a in car) {
+        // 遍历car所有属性并拼接
+        for (var key in car) {
+            result += key;
+        }
+    }
+    
+    // 返回拼接好的字符串
+    return result;
+    /*********end*********/
+}

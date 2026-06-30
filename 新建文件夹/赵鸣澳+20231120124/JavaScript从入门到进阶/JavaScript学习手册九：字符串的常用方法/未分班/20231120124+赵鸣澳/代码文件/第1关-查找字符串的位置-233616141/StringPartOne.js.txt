@@ -1,0 +1,15 @@
+function mainJs(a,b) {
+	//请在此处编写代码
+	/********** Begin *********/
+    var index = a.indexOf(b);
+
+    var sum = 0;
+    
+    while(index>=0){
+        sum+=index;
+        index = a.indexOf(b,index+b.length);
+    }
+    return sum;
+	/********** End **********/
+
+}

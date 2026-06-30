@@ -1,0 +1,7 @@
+1. HTML是什么语言？(单选题)<br>
+<!-- ********* Begin ********* -->
+<input type="radio" name="question"/>A：高级文本语言<br>
+<input type="radio" name="question"/>B：超文本标记语言<br>
+<input type="radio" name="question"/>C：扩展标记语言  <br>
+<input type="radio" name="question"/>D：图形化标记语言<br>
+<!-- ********* End ********* -->

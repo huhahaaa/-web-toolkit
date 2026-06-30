@@ -1,0 +1,26 @@
+function mainJs(a) {
+    var arr = a.split(",");
+    for(var k = 0,length = arr.length;k < length;k++) {
+        arr[k] = parseInt(arr[k]);
+    }
+	//请在此处编写代码
+	/********** Begin **********/
+    for(var k = 0;k < arr.length;k++) {
+       var x=arr[k];
+       var num=true;
+       if(x>1){
+           for(var j=2;j<x;j++){
+               if(x%j==0){
+                   num=false;
+                   break;
+               }
+           }
+           if(num){
+               return x;
+           }
+       }
+    }
+    
+	/********** End **********/
+}
+

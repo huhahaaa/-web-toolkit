@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>类选择器</title>
+  <style type="text/css">
+  #important{
+    color: red;
+    font-weight: bold;
+  }
+  </style>
+</head>
+<body>
+  <h1 id="important">温馨提示</h1>
+  <p>少一串脚印，多一份绿意。</p>
+</body>
+</html>

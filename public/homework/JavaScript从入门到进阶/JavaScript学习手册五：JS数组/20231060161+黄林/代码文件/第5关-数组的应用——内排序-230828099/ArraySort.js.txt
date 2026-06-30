@@ -1,0 +1,36 @@
+function mainJs(a) {
+    var arr = a.split(",");
+    for(var i = 0;i < arr.length;i++) {
+        arr[i] = parseInt(arr[i]);
+    }
+    //请在此处编写代码
+  /*********begin*********/
+    var result = [];
+    var aLength = arr.length;
+    var temp;
+    
+    // 修正：外层循环只需执行 aLength - 1 次
+    for (var i = 0; i < aLength - 1; i++) {
+        var max = arr[0];
+        var maxIndex = 0;
+        
+        // 内层循环：在当前未排序的范围内寻找最大值
+        for (var j = 1; j < aLength - i; j++) {
+            if (arr[j] > max) {
+                max = arr[j];
+                maxIndex = j;
+            }
+        }
+        
+        // 在交换前，记录下本次最大元素的索引位置
+        result.push(maxIndex);
+        
+        // 将最大元素交换到未排序部分的末尾
+        temp = arr[aLength - i - 1];
+        arr[aLength - i - 1] = arr[maxIndex];
+        arr[maxIndex] = temp;
+    }
+    
+    return result;
+    /*********end*********/
+}

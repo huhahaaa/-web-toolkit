@@ -1,0 +1,29 @@
+var orange = {
+    weight:"200g",
+    color:"orange",
+    taste:"sour"
+};
+var car = {
+    brand:"Jaguar",
+    price:"$80000",
+    model:"XFL"
+}
+function mainJs(a){
+	//请在此处编写代码
+    /*********begin*********/
+    
+ 
+var result =  "";
+    if(a in car){
+        for(att in car){
+            result+=att;
+        }
+    }
+    else{
+        for(att in orange){
+            result+=att;
+        }
+    }
+    return result;
+    /*********end*********/
+}

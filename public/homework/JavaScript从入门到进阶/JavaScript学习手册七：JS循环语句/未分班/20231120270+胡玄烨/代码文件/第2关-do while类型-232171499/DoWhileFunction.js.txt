@@ -1,0 +1,16 @@
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+	//请在此处编写代码
+	/********** Begin **********/
+    var sum=0;
+    var i=a+1;
+do{
+   if(i<b){
+   sum+=i;
+   }
+  i++;
+} while(i <b);
+return sum;
+	/********** End **********/
+}

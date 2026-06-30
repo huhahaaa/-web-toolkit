@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>元素选择器</title>
+  <style type="text/css">
+    /* 组合元素选择器 */
+    h1,p {color:grey;}
+  </style>
+</head>
+
+<body>
+	<h1>组合选择器</h1>
+	<p>组合选择器，可以将样式同时运用于多个元素。</p>
+</body>
+</html>

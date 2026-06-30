@@ -1,0 +1,14 @@
+function mainJs(a) {
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/
+    myFunc = function(num) {
+        var hundred = Math.floor(num / 100);     // 获取百位数
+        var ten = Math.floor((num % 100) / 10);  // 获取十位数
+        var single = num % 10;                   // 获取个位数
+        return hundred + ten + single;           // 返回三位数字之和
+    };
+    
+	/********** End **********/
+    return myFunc(a);
+}

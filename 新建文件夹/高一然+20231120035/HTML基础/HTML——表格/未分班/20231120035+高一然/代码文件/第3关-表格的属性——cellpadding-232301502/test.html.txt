@@ -1,0 +1,16 @@
+<table border="2" cellpadding="6">
+    <tr>
+        <td>姓名</th>
+        <th>语文</th>
+        <th>数学</th>
+        <th>英语</th>
+        <th>合计</th>
+    </tr>
+    <tr>
+        <td>李四</td>
+        <td>90</td>
+        <td>95</td>
+        <td>80</td>
+        <td>265</td>
+    </tr>
+</table>

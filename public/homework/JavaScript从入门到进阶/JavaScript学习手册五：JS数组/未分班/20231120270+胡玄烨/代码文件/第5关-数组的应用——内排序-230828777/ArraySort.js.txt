@@ -1,0 +1,30 @@
+function mainJs(a) {
+    var arr = a.split(",");
+    for(var i = 0;i < arr.length;i++) {
+        arr[i] = parseInt(arr[i]);
+    }
+    //请在此处编写代码
+    /*********begin*********/
+    var temp;
+    var max = arr[0];
+    var key;
+    var shuzu = new Array();
+    for(var i=0;i<arr.length-1;i++){
+        for(var j=1;j<arr.length-i;j++){
+             if(arr[j]>max){
+                 max = arr[j];
+                 key = j;
+             }
+        }
+        shuzu[i] = key;
+        temp = arr[arr.length-i-1];
+        arr[arr.length-i-1] = arr[key];
+        arr[key] = temp;
+        max = arr[0];
+        key = 0;
+
+    }
+    return shuzu;
+
+    /*********end*********/
+}

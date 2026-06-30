@@ -1,0 +1,11 @@
+function mainJs(a) {
+	//请在此处编写代码
+	/********** Begin **********/
+    /********** Begin **********/
+var pattern = /^js\b/;
+/********** End **********/
+    
+    
+	/********** End **********/
+     return pattern.test(a).toString();
+}

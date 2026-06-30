@@ -1,0 +1,18 @@
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /********** Begin **********/
+    var start = Math.min(a, b);
+    var end = Math.max(a, b);
+    var sum = 0;
+    var i = start + 1;
+    do {
+        if (i < end) {
+            sum += i;
+        }
+        i++;
+    } while (i < end);
+    return sum;
+    /********** End **********/
+}

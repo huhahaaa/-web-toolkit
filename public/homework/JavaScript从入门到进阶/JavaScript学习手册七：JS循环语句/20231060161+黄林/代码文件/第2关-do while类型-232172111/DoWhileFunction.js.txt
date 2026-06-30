@@ -1,0 +1,26 @@
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+	//请在此处编写代码
+	/********** Begin **********/
+    /********** Begin **********/
+    // 1. 找出 a 和 b 中的最大值和最小值
+    var min = Math.min(a, b);
+    var max = Math.max(a, b);
+    
+    var sum = 0;
+    var i = min + 1; // 从区间的左端点下一个整数开始
+
+    // 2. 使用 do while 循环进行累加
+    // 只有当中间确实存在整数时（即 i < max）才进入循环
+    if (i < max) {
+        do {
+            sum += i;
+            i++;
+        } while (i < max);
+    }
+
+    return sum;
+    /********** End **********/
+	/********** End **********/
+}

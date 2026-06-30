@@ -1,0 +1,13 @@
+function mainJs(a,b) {
+    var a = parseInt(a);
+    var b = parseInt(b);
+
+    //请在此处编写代码
+    /**********begin**********/
+    var c = ((--a + b) * b == 24) ? 1 : 0;
+    var d = 4;
+    var e = (c *= d) + d;
+    /**********end**********/
+
+    return e;
+}

@@ -1,0 +1,1184 @@
+{
+  "student": {
+    "name": "何畅",
+    "id": "20231120119"
+  },
+  "themes": [
+    {
+      "name": "CSS入门",
+      "sections": [
+        {
+          "name": "CSS从入门到精通——基础知识",
+          "levels": [
+            {
+              "number": 1,
+              "name": "初识CSS：丰富多彩的网页样式",
+              "id": "220000616",
+              "files": [
+                {
+                  "name": "example.html",
+                  "path": "CSS入门/CSS从入门到精通——基础知识/未分班/20231120119+何畅/代码文件/第1关-初识CSS：丰富多彩的网页样式-220000616/example.html.txt"
+                },
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/CSS从入门到精通——基础知识/未分班/20231120119+何畅/代码文件/第1关-初识CSS：丰富多彩的网页样式-220000616/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "CSS样式引入方式",
+              "id": "220000617",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/CSS从入门到精通——基础知识/未分班/20231120119+何畅/代码文件/第2关-CSS样式引入方式-220000617/index.html.txt"
+                },
+                {
+                  "name": "style.css",
+                  "path": "CSS入门/CSS从入门到精通——基础知识/未分班/20231120119+何畅/代码文件/第2关-CSS样式引入方式-220000617/style.css.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "CSS入门/CSS从入门到精通——基础知识/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "CSS从入门到精通——基础选择器",
+          "levels": [
+            {
+              "number": 1,
+              "name": "CSS 元素选择器",
+              "id": "220002805",
+              "files": [
+                {
+                  "name": "combine.html",
+                  "path": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/代码文件/第1关-CSS 元素选择器-220002805/combine.html.txt"
+                },
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/代码文件/第1关-CSS 元素选择器-220002805/index.html.txt"
+                },
+                {
+                  "name": "sample_1.html",
+                  "path": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/代码文件/第1关-CSS 元素选择器-220002805/sample_1.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "CSS 类选择器",
+              "id": "220002806",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/代码文件/第2关-CSS 类选择器-220002806/index.html.txt"
+                },
+                {
+                  "name": "sample_1.html",
+                  "path": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/代码文件/第2关-CSS 类选择器-220002806/sample_1.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "CSS id选择器",
+              "id": "220002807",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/代码文件/第3关-CSS id选择器-220002807/index.html.txt"
+                },
+                {
+                  "name": "sample_1.html",
+                  "path": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/代码文件/第3关-CSS id选择器-220002807/sample_1.html.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "CSS入门/CSS从入门到精通——基础选择器/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "CSS从入门到精通——背景样式",
+          "levels": [
+            {
+              "number": 1,
+              "name": "背景颜色",
+              "id": "221694052",
+              "files": [
+                {
+                  "name": "style.css",
+                  "path": "CSS入门/CSS从入门到精通——背景样式/未分班/20231120119+何畅/代码文件/第1关-背景颜色-221694052/style.css.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "背景图片",
+              "id": "221694053",
+              "files": [
+                {
+                  "name": "style.css",
+                  "path": "CSS入门/CSS从入门到精通——背景样式/未分班/20231120119+何畅/代码文件/第2关-背景图片-221694053/style.css.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "背景定位与背景关联",
+              "id": "221694054",
+              "files": [
+                {
+                  "name": "style.css",
+                  "path": "CSS入门/CSS从入门到精通——背景样式/未分班/20231120119+何畅/代码文件/第3关-背景定位与背景关联-221694054/style.css.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "CSS入门/CSS从入门到精通——背景样式/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "CSS入门到精通——表格样式",
+          "levels": [
+            {
+              "number": 1,
+              "name": "表格边框",
+              "id": "221689323",
+              "files": [
+                {
+                  "name": "style.css",
+                  "path": "CSS入门/CSS入门到精通——表格样式/未分班/20231120119+何畅/代码文件/第1关-表格边框-221689323/style.css.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "表格颜色、文字与大小",
+              "id": "221689324",
+              "files": [
+                {
+                  "name": "style.css",
+                  "path": "CSS入门/CSS入门到精通——表格样式/未分班/20231120119+何畅/代码文件/第2关-表格颜色、文字与大小-221689324/style.css.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "CSS入门/CSS入门到精通——表格样式/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "使用 HTMLCSS 实现 Educoder 顶部导航栏",
+          "levels": [
+            {
+              "number": 1,
+              "name": "使用flex布局实现Educoder顶部导航栏容器布局",
+              "id": "223111824",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/使用 HTMLCSS 实现 Educoder 顶部导航栏/未分班/20231120119+何畅/代码文件/第1关-使用flex布局实现Educoder顶部导航栏容器布局-223111824/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "实现左侧文字导航列表",
+              "id": "223111825",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/使用 HTMLCSS 实现 Educoder 顶部导航栏/未分班/20231120119+何畅/代码文件/第2关-实现左侧文字导航列表-223111825/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "实现右侧功能图标排序",
+              "id": "223111826",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/使用 HTMLCSS 实现 Educoder 顶部导航栏/未分班/20231120119+何畅/代码文件/第3关-实现右侧功能图标排序-223111826/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "实现左侧鼠标悬停效果与选中状态",
+              "id": "223111827",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "CSS入门/使用 HTMLCSS 实现 Educoder 顶部导航栏/未分班/20231120119+何畅/代码文件/第4关-实现左侧鼠标悬停效果与选中状态-223111827/index.html.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "CSS入门/使用 HTMLCSS 实现 Educoder 顶部导航栏/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        }
+      ]
+    },
+    {
+      "name": "HTML基础",
+      "sections": [
+        {
+          "name": "HTML——基本标签",
+          "levels": [
+            {
+              "number": 1,
+              "name": "创建第一个 HTML 标签",
+              "id": "216678649",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/代码文件/第1关-创建第一个 HTML 标签-216678649/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "创建 _h2_-_h6_ 标签",
+              "id": "216678650",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/代码文件/第2关-创建 _h2_-_h6_ 标签-216678650/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "创建 p 标签",
+              "id": "216678651",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/代码文件/第3关-创建 p 标签-216678651/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "创建 a 标签",
+              "id": "216678652",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/代码文件/第4关-创建 a 标签-216678652/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "创建 img 标签",
+              "id": "216678653",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/代码文件/第5关-创建 img 标签-216678653/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "name": "创建 div 标签",
+              "id": "216678654",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/代码文件/第6关-创建 div 标签-216678654/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "name": "添加注释 ",
+              "id": "216678655",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/代码文件/第7关-添加注释 -216678655/test.html.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "HTML基础/HTML——基本标签/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "HTML——表单类的标签",
+          "levels": [
+            {
+              "number": 1,
+              "name": "表单元素——文本框 ",
+              "id": "216679917",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第1关-表单元素——文本框 -216679917/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "表单元素——密码框 ",
+              "id": "216679918",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第2关-表单元素——密码框 -216679918/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "表单元素——单选框 ",
+              "id": "216679919",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第3关-表单元素——单选框 -216679919/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "表单元素——多选框 ",
+              "id": "216679920",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第4关-表单元素——多选框 -216679920/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "表单元素——checked属性",
+              "id": "216679921",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第5关-表单元素——checked属性-216679921/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "name": "表单元素——disabled 属性",
+              "id": "216679922",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第6关-表单元素——disabled 属性-216679922/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "name": "表单元素——label 标签",
+              "id": "216679923",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第7关-表单元素——label 标签-216679923/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "name": "表单元素——下拉列表",
+              "id": "216679924",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第8关-表单元素——下拉列表-216679924/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "name": "表单元素——文本域",
+              "id": "216679925",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第9关-表单元素——文本域-216679925/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 10,
+              "name": "表单元素——提交按钮",
+              "id": "216679926",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第10关-表单元素——提交按钮-216679926/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 11,
+              "name": "表单元素的综合案例",
+              "id": "216679927",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/代码文件/第11关-表单元素的综合案例-216679927/test.html.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "HTML基础/HTML——表单类的标签/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "HTML——表格",
+          "levels": [
+            {
+              "number": 1,
+              "name": "表格的基本构成",
+              "id": "218516757",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第1关-表格的基本构成-218516757/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "表格的属性——宽、高",
+              "id": "218516758",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第2关-表格的属性——宽、高-218516758/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "表格的属性——cellpadding",
+              "id": "218516759",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第3关-表格的属性——cellpadding-218516759/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "表格的属性——cellspacing",
+              "id": "218516760",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第4关-表格的属性——cellspacing-218516760/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "表格的标题",
+              "id": "218516761",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第5关-表格的标题-218516761/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "name": "表格——_td_ 标签的 rowspan 属性",
+              "id": "218516762",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第6关-表格——_td_ 标签的 rowspan 属性-218516762/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "name": "表格——_td_标签的colspan属性",
+              "id": "218516763",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第7关-表格——_td_标签的colspan属性-218516763/test.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "name": "表格的综合案例",
+              "id": "218516764",
+              "files": [
+                {
+                  "name": "test.html",
+                  "path": "HTML基础/HTML——表格/未分班/20231120119+何畅/代码文件/第8关-表格的综合案例-218516764/test.html.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "HTML基础/HTML——表格/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "html网页综合项目实战",
+          "levels": [
+            {
+              "number": 1,
+              "name": "header——头部",
+              "id": "219128832",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "HTML基础/html网页综合项目实战/未分班/20231120119+何畅/代码文件/第1关-header——头部-219128832/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "用Swiper实现轮播图",
+              "id": "219128833",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "HTML基础/html网页综合项目实战/未分班/20231120119+何畅/代码文件/第2关-用Swiper实现轮播图-219128833/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "用CSS3实现移动效果",
+              "id": "219128834",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "HTML基础/html网页综合项目实战/未分班/20231120119+何畅/代码文件/第3关-用CSS3实现移动效果-219128834/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "用CSS3实现放大效果",
+              "id": "219128835",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "HTML基础/html网页综合项目实战/未分班/20231120119+何畅/代码文件/第4关-用CSS3实现放大效果-219128835/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "完成一个版块",
+              "id": "219128836",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "HTML基础/html网页综合项目实战/未分班/20231120119+何畅/代码文件/第5关-完成一个版块-219128836/index.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "name": "清除浮动",
+              "id": "219128837",
+              "files": [
+                {
+                  "name": "index.html",
+                  "path": "HTML基础/html网页综合项目实战/未分班/20231120119+何畅/代码文件/第6关-清除浮动-219128837/index.html.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "HTML基础/html网页综合项目实战/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        }
+      ]
+    },
+    {
+      "name": "JavaScript从入门到进阶",
+      "sections": [
+        {
+          "name": "JavaScript学习手册一：JS简介",
+          "levels": [
+            {
+              "number": 1,
+              "name": "JavaScript语言介绍、注释及基本输出方式 ",
+              "id": "229128912",
+              "files": [
+                {
+                  "name": "Hello.html",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册一：JS简介/未分班/20231120119+何畅/代码文件/第1关-JavaScript语言介绍、注释及基本输出方式 -229128912/Hello.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "JavaScript与HTML",
+              "id": "229128913",
+              "files": [
+                {
+                  "name": "JavaScriptEmbed.html",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册一：JS简介/未分班/20231120119+何畅/代码文件/第2关-JavaScript与HTML-229128913/JavaScriptEmbed.html.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "JavaScript变量",
+              "id": "229128914",
+              "files": [
+                {
+                  "name": "Variable.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册一：JS简介/未分班/20231120119+何畅/代码文件/第3关-JavaScript变量-229128914/Variable.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册一：JS简介/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册二：JS数据类型",
+          "levels": [
+            {
+              "number": 1,
+              "name": "JavaScript数据类型介绍",
+              "id": "229133439",
+              "files": [
+                {
+                  "name": "DataKind.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册二：JS数据类型/未分班/20231120119+何畅/代码文件/第1关-JavaScript数据类型介绍-229133439/DataKind.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "JavaScript数据类型转换",
+              "id": "229133440",
+              "files": [
+                {
+                  "name": "DataKindConvert.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册二：JS数据类型/未分班/20231120119+何畅/代码文件/第2关-JavaScript数据类型转换-229133440/DataKindConvert.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册二：JS数据类型/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册三：JS运算符",
+          "levels": [
+            {
+              "number": 1,
+              "name": "算术运算符",
+              "id": "229705195",
+              "files": [
+                {
+                  "name": "ArithSymbol.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册三：JS运算符/未分班/20231120119+何畅/代码文件/第1关-算术运算符-229705195/ArithSymbol.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "比较和逻辑运算符",
+              "id": "229705196",
+              "files": [
+                {
+                  "name": "LoginBoolSymbol.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册三：JS运算符/未分班/20231120119+何畅/代码文件/第2关-比较和逻辑运算符-229705196/LoginBoolSymbol.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "条件和赋值运算符",
+              "id": "229705197",
+              "files": [
+                {
+                  "name": "ConditionSymbol.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册三：JS运算符/未分班/20231120119+何畅/代码文件/第3关-条件和赋值运算符-229705197/ConditionSymbol.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "运算符的优先级和结合性",
+              "id": "229705198",
+              "files": [
+                {
+                  "name": "Priority.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册三：JS运算符/未分班/20231120119+何畅/代码文件/第4关-运算符的优先级和结合性-229705198/Priority.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册三：JS运算符/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册四：JS对象",
+          "levels": [
+            {
+              "number": 1,
+              "name": "对象的创建",
+              "id": "229706474",
+              "files": [
+                {
+                  "name": "CreateObject.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册四：JS对象/未分班/20231120119+何畅/代码文件/第1关-对象的创建-229706474/CreateObject.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "属性的增删改查",
+              "id": "229706475",
+              "files": [
+                {
+                  "name": "operateAttribute.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册四：JS对象/未分班/20231120119+何畅/代码文件/第2关-属性的增删改查-229706475/operateAttribute.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "属性的检测和枚举",
+              "id": "229706476",
+              "files": [
+                {
+                  "name": "AttributeDetect.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册四：JS对象/未分班/20231120119+何畅/代码文件/第3关-属性的检测和枚举-229706476/AttributeDetect.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册四：JS对象/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册五：JS数组",
+          "levels": [
+            {
+              "number": 1,
+              "name": "数组的创建、读写和长度",
+              "id": "231155793",
+              "files": [
+                {
+                  "name": "ArrayCreate.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册五：JS数组/未分班/20231120119+何畅/代码文件/第1关-数组的创建、读写和长度-231155793/ArrayCreate.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "数组元素的增减",
+              "id": "231155794",
+              "files": [
+                {
+                  "name": "ArrayAddDelete.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册五：JS数组/未分班/20231120119+何畅/代码文件/第2关-数组元素的增减-231155794/ArrayAddDelete.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "数组的遍历和多维数组",
+              "id": "231155795",
+              "files": [
+                {
+                  "name": "MultiArray.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册五：JS数组/未分班/20231120119+何畅/代码文件/第3关-数组的遍历和多维数组-231155795/MultiArray.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "数组的常用方法",
+              "id": "231155796",
+              "files": [
+                {
+                  "name": "ArrayMethod.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册五：JS数组/未分班/20231120119+何畅/代码文件/第4关-数组的常用方法-231155796/ArrayMethod.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "数组的应用——内排序",
+              "id": "231155797",
+              "files": [
+                {
+                  "name": "ArraySort.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册五：JS数组/未分班/20231120119+何畅/代码文件/第5关-数组的应用——内排序-231155797/ArraySort.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册五：JS数组/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册六：JS条件语句",
+          "levels": [
+            {
+              "number": 1,
+              "name": "if-else类型",
+              "id": "231169639",
+              "files": [
+                {
+                  "name": "IfElse.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册六：JS条件语句/未分班/20231120119+何畅/代码文件/第1关-if-else类型-231169639/IfElse.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "switch类型",
+              "id": "231169640",
+              "files": [
+                {
+                  "name": "SwitchSeten.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册六：JS条件语句/未分班/20231120119+何畅/代码文件/第2关-switch类型-231169640/SwitchSeten.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "综合练习",
+              "id": "231169641",
+              "files": [
+                {
+                  "name": "ConditionSetenceCase.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册六：JS条件语句/未分班/20231120119+何畅/代码文件/第3关-综合练习-231169641/ConditionSetenceCase.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册六：JS条件语句/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册七：JS循环语句",
+          "levels": [
+            {
+              "number": 1,
+              "name": "while类型",
+              "id": "232465707",
+              "files": [
+                {
+                  "name": "DoWhile.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册七：JS循环语句/未分班/20231120119+何畅/代码文件/第1关-while类型-232465707/DoWhile.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "do while类型",
+              "id": "232465708",
+              "files": [
+                {
+                  "name": "DoWhileFunction.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册七：JS循环语句/未分班/20231120119+何畅/代码文件/第2关-do while类型-232465708/DoWhileFunction.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "for类型",
+              "id": "232465709",
+              "files": [
+                {
+                  "name": "ForIn.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册七：JS循环语句/未分班/20231120119+何畅/代码文件/第3关-for类型-232465709/ForIn.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "for in类型",
+              "id": "232465710",
+              "files": [
+                {
+                  "name": "ForInFunction.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册七：JS循环语句/未分班/20231120119+何畅/代码文件/第4关-for in类型-232465710/ForInFunction.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "break和continue的区别——break",
+              "id": "232465711",
+              "files": [
+                {
+                  "name": "BreakContinue.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册七：JS循环语句/未分班/20231120119+何畅/代码文件/第5关-break和continue的区别——break-232465711/BreakContinue.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "name": "break和continue的区别——continue",
+              "id": "232465712",
+              "files": [
+                {
+                  "name": "BreakContinueFunction.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册七：JS循环语句/未分班/20231120119+何畅/代码文件/第6关-break和continue的区别——continue-232465712/BreakContinueFunction.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册七：JS循环语句/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册八：JS函数",
+          "levels": [
+            {
+              "number": 1,
+              "name": "用函数语句定义函数",
+              "id": "232469092",
+              "files": [
+                {
+                  "name": "FunctionCreate.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/代码文件/第1关-用函数语句定义函数-232469092/FunctionCreate.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "用表达式定义函数",
+              "id": "232469093",
+              "files": [
+                {
+                  "name": "AnonymousFunctionCreate.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/代码文件/第2关-用表达式定义函数-232469093/AnonymousFunctionCreate.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "函数的调用",
+              "id": "232469094",
+              "files": [
+                {
+                  "name": "FunctionCall.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/代码文件/第3关-函数的调用-232469094/FunctionCall.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "未定义的实参",
+              "id": "232469095",
+              "files": [
+                {
+                  "name": "UndefinedArguments.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/代码文件/第4关-未定义的实参-232469095/UndefinedArguments.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "实参对象",
+              "id": "232469096",
+              "files": [
+                {
+                  "name": "FunctionArguments.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/代码文件/第5关-实参对象-232469096/FunctionArguments.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "name": "对象作为参数",
+              "id": "232469097",
+              "files": [
+                {
+                  "name": "ObjectArguments.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/代码文件/第6关-对象作为参数-232469097/ObjectArguments.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "name": "函数对象",
+              "id": "232469098",
+              "files": [
+                {
+                  "name": "FunctionObject.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/代码文件/第7关-函数对象-232469098/FunctionObject.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册八：JS函数/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册九：字符串的常用方法",
+          "levels": [
+            {
+              "number": 1,
+              "name": "查找字符串的位置",
+              "id": "233642999",
+              "files": [
+                {
+                  "name": "StringPartOne.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册九：字符串的常用方法/未分班/20231120119+何畅/代码文件/第1关-查找字符串的位置-233642999/StringPartOne.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "求指定位置的字符",
+              "id": "233643000",
+              "files": [
+                {
+                  "name": "CharAt.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册九：字符串的常用方法/未分班/20231120119+何畅/代码文件/第2关-求指定位置的字符-233643000/CharAt.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "字符串的截取",
+              "id": "233643001",
+              "files": [
+                {
+                  "name": "Slice.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册九：字符串的常用方法/未分班/20231120119+何畅/代码文件/第3关-字符串的截取-233643001/Slice.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "大小写转换",
+              "id": "233643002",
+              "files": [
+                {
+                  "name": "StringSplit.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册九：字符串的常用方法/未分班/20231120119+何畅/代码文件/第4关-大小写转换-233643002/StringSplit.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "字符串的分割",
+              "id": "233643003",
+              "files": [
+                {
+                  "name": "Split.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册九：字符串的常用方法/未分班/20231120119+何畅/代码文件/第5关-字符串的分割-233643003/Split.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册九：字符串的常用方法/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        },
+        {
+          "name": "JavaScript学习手册十：正则表达式",
+          "levels": [
+            {
+              "number": 1,
+              "name": "字符串字面量",
+              "id": "233644624",
+              "files": [
+                {
+                  "name": "DirectString.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第1关-字符串字面量-233644624/DirectString.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 2,
+              "name": "字符类",
+              "id": "233644625",
+              "files": [
+                {
+                  "name": "RegularExpressionDefine.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第2关-字符类-233644625/RegularExpressionDefine.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 3,
+              "name": "重复",
+              "id": "233644626",
+              "files": [
+                {
+                  "name": "Repeat.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第3关-重复-233644626/Repeat.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 4,
+              "name": "选择",
+              "id": "233644627",
+              "files": [
+                {
+                  "name": "RepeatAndSelect.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第4关-选择-233644627/RepeatAndSelect.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 5,
+              "name": "分组",
+              "id": "233644628",
+              "files": [
+                {
+                  "name": "Divide.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第5关-分组-233644628/Divide.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 6,
+              "name": "引用",
+              "id": "233644629",
+              "files": [
+                {
+                  "name": "DivideAndQuote.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第6关-引用-233644629/DivideAndQuote.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 7,
+              "name": "匹配位置",
+              "id": "233644630",
+              "files": [
+                {
+                  "name": "Location.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第7关-匹配位置-233644630/Location.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 8,
+              "name": "修饰符",
+              "id": "233644631",
+              "files": [
+                {
+                  "name": "LocationAndDescribe.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第8关-修饰符-233644631/LocationAndDescribe.js.txt"
+                }
+              ]
+            },
+            {
+              "number": 9,
+              "name": "正则表达式的使用",
+              "id": "233644632",
+              "files": [
+                {
+                  "name": "StringRegularExpression.js",
+                  "path": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/代码文件/第9关-正则表达式的使用-233644632/StringRegularExpression.js.txt"
+                }
+              ]
+            }
+          ],
+          "pdf": "JavaScript从入门到进阶/JavaScript学习手册十：正则表达式/未分班/20231120119+何畅/20231120119+何畅.pdf"
+        }
+      ]
+    }
+  ]
+}

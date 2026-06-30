@@ -1,0 +1,8 @@
+function mainJs(a) {
+	//请在此处编写代码
+	/********** Begin **********/
+    var result = a.charAt(0) + a.charAt(1) + a.charAt(2) + a.charAt(3) + a.charAt(4) + a.charAt(5);
+    return result;
+    
+	/********** End **********/
+}

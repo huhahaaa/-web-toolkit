@@ -1,0 +1,17 @@
+var testArray = [12,"java","js","c","c++",24,36,"python","c#","css"];
+function mainJs(a,b) {
+    a = parseInt(a);
+    b = parseInt(b);
+    //请在此处编写代码
+    /*********begin*********/
+    var len = testArray.length;
+    // 获取最后 a 个元素
+    var lastPart = testArray.slice(len - a);
+    // 获取前 len - a 个元素
+    var firstPart = testArray.slice(0, len - a);
+    // 拼接新数组
+    var newArray = lastPart.concat(firstPart);
+    // 返回索引 b 处的元素
+    return newArray[b];
+    /*********end*********/
+}

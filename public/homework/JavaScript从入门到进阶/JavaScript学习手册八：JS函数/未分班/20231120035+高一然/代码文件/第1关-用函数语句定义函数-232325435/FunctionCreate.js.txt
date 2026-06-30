@@ -1,0 +1,5 @@
+/********** Begin **********/
+function mainJs(a, b) {
+    return a + b;
+}
+/********** End **********/

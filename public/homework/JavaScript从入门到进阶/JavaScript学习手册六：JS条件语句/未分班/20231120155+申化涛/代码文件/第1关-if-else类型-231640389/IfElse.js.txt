@@ -1,0 +1,10 @@
+function mainJs(a) {
+    a = parseInt(a);
+    /********** Begin **********/
+    if (a < 60) {
+        return "unpass";
+    } else {
+        return "pass";
+    }
+    /********** End **********/
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <!-- ********* Begin ********* -->
+    <img src="https://www.educoder.net/attachments/download/ZTZaUEp2Y0ltSElvcnBxelNJTXYyUT09" alt="小狗走路"/>
+
+    <!-- ********* End ********* -->
+
+</body>
+</html>

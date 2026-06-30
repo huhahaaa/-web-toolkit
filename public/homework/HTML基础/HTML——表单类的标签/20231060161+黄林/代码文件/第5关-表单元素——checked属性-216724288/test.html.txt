@@ -1,0 +1,7 @@
+婚姻状况:<br>
+<!-- ********* Begin ********* -->
+<input type="radio" name="marry" checked="checked"/>未婚<br>
+<input type="radio" name="marry"/>已婚<br>
+    
+    
+<!-- ********* End ********* -->

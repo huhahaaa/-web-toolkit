@@ -1,0 +1,20 @@
+function mainJs(a,b) {
+    a = a.split(",");
+    for(var i = 0,length = a.length;i < length;i++) {
+        a[i] = parseInt(a[i]);
+    }
+    var sum = 0;
+    for(var i = 0,length = a.length;i < length;i++) {
+	//请在此处编写代码
+	/********** Begin **********/
+        // 根据 b 的正负决定累加正数还是负数
+        if (b > 0) {
+            if (a[i] <= 0) continue;  // 只加正数
+        } else {
+            if (a[i] >= 0) continue;  // 只加负数
+        }
+	/********** End **********/
+        sum += a[i];
+    }
+    return sum;
+}

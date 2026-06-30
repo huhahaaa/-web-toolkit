@@ -1,0 +1,20 @@
+function mainJs(a){
+    a = parseInt(a);
+	//请在此处编写代码
+	/********** Begin **********/
+    /********** Begin **********/
+    // 将数字转换为字符串
+    var str = a.toString();
+    var reversedStr = "";
+
+    // 使用 for 循环从后往前遍历字符串
+    for (var i = str.length - 1; i >= 0; i--) {
+        reversedStr += str.charAt(i);
+    }
+
+    // 将颠倒后的字符串转换为整数并返回
+    return parseInt(reversedStr);
+    /********** End **********/
+    
+	/********** End **********/
+}

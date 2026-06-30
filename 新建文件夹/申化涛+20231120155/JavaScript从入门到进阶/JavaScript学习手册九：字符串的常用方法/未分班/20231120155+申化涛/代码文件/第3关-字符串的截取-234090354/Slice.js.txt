@@ -1,0 +1,12 @@
+function mainJs(a, b) {
+    /********** Begin **********/
+    // 查找杂质 b 在 a 中的位置
+    let index = a.indexOf(b);
+    // 如果没有找到，返回原字符串
+    if (index === -1) {
+        return a;
+    }
+    // 否则，使用 slice 截取 b 之前和之后的部分拼接
+    return a.slice(0, index) + a.slice(index + b.length);
+    /********** End **********/
+}

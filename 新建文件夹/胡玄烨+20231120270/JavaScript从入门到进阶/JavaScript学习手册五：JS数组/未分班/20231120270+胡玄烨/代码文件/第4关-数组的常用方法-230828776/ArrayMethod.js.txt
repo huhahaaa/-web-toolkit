@@ -1,0 +1,23 @@
+function mainJs(myArray) {
+    myArray = myArray.split(",");
+    //请在此处编写代码
+    /*********begin*********/
+    var a = new Array();
+    var i = 0;
+    while(i<myArray.length){
+        i = myArray.indexOf("a",i);
+        if(i==-1)
+            break;
+        a.push(i++);
+    }
+    var b = new Array();
+    var j = 0;
+    while(j<myArray.length){
+        j = myArray.indexOf("b",j);
+        if(j==-1)
+            break;
+        b.push(j++);
+    }
+    return a.concat(b);
+    /*********end*********/
+}

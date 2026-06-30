@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>类选择器</title>
+  <style type="text/css">
+  .main {
+    background-color: ivory;
+    margin: 10px;
+  }
+
+  .news {
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+  }
+
+  p {
+    color: grey;
+  }
+  </style>
+</head>
+<body>
+<div class="main">
+  <article class="news">
+    <h1>地震自救指南</h1>
+    <p>大的晃动时间约为1分钟左右。这时首先应顾及的是您自己与家人的人身安全。首先，在重心较低、且结实牢固的桌子下面躲避，并紧紧抓牢桌子腿。在没有桌子等可供藏身的场合，无论如何，也要用坐垫等物保护好头部。</p>
+  </article>
+</div>
+</body>
+</html>

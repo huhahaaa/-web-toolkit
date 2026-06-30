@@ -1,0 +1,6 @@
+function mainJs(a) {
+    /********** Begin **********/
+    // 使用 substring 获取前六位
+    return a.substring(0, 6);
+    /********** End **********/
+}

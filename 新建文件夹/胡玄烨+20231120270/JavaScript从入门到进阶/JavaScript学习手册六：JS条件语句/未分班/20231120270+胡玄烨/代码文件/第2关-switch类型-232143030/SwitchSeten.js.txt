@@ -1,0 +1,17 @@
+function mainJs(a) {
+    a = parseInt(a);
+	//请在此处编写代码
+    /********** Begin **********/
+    let b = 0;
+    switch (a) {
+        case 82414:b="Superior"; break;
+        case 59600:b="Huron"; break;
+        case 58016:b="Michigan"; break;
+        case 25744:b="Erie"; break;
+        case 19554: b="Ontario"; break;
+        default: b="error"; break;
+ 
+    }
+    return b;
+	/********** End **********/
+}

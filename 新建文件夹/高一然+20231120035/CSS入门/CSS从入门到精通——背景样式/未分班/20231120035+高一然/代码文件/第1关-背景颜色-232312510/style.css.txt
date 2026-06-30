@@ -1,0 +1,22 @@
+/* ********** BEGIN ********** */
+body {
+    background-color: ivory;
+}
+
+p {
+    background-color: lightblue;
+}
+/* ********** END ********** */
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: grey;
+    /* ********** BEGIN ********** */
+    /* 背景色已在上面设置，此处分隔符保留，无需重复添加 */
+    /* ********** END ********** */
+}

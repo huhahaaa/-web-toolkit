@@ -1,0 +1,7 @@
+function mainJs(a,b) {
+//请在此处编写代码
+/*********begin*********/
+var result = a>b?a:b;
+return result;
+/*********end*********/
+}

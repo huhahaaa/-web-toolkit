@@ -1,0 +1,28 @@
+var apple = {
+    weight:"200克",
+    level:"特级",
+    locationProvince:"陕西省",
+    locationCity:"榆林市"
+}
+function mainJs(a,b){
+    apple[a]= b;
+	//请在此处编写代码
+    /********** Begin **********/
+
+    
+    var ans="";
+    for(var att in apple)
+    {
+    if(att.indexOf("location")!=-1)
+    {
+        ans+=apple[att];
+    }
+
+
+    
+ 
+    }
+    return ans;
+ 
+	/********** End **********/
+}

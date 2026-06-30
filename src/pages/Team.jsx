@@ -4,41 +4,46 @@ import styles from './Team.module.css'
 
 const members = [
   {
-    name: 'A',
+    name: '何畅',
     role: '组长',
     desc: '负责网页整体架构、模块细分、首页设计与团队展示页面设计',
     links: { github: 'https://github.com/huhahaaa', email: '#' },
     page: '/member/a',
   },
   {
-    name: 'B',
+    name: '黄林',
     role: '组员',
     desc: '负责排序可视化模块、算法实现与动画演示',
     links: { github: '#', email: '#' },
+    page: '/member/b',
   },
   {
-    name: 'C',
+    name: '申化涛',
     role: '组员',
     desc: '负责寻路可视化模块、BFS 与 A* 算法实现',
     links: { github: '#', email: '#' },
+    page: '/member/c',
   },
   {
-    name: 'D',
+    name: '胡玄烨',
     role: '组员',
     desc: '负责番茄钟模块、计时器逻辑与每日统计',
     links: { github: '#', email: '#' },
+    page: '/member/d',
   },
   {
-    name: 'E',
+    name: '高一然',
     role: '组员',
     desc: '负责图片画廊模块、上传管理与视觉素材',
     links: { github: '#', email: '#' },
+    page: '/member/e',
   },
   {
-    name: 'F',
+    name: '赵鸣澳',
     role: '组员',
     desc: '负责日程看板模块、任务管理与优先级系统',
     links: { github: '#', email: '#' },
+    page: '/member/f',
   },
 ]
 

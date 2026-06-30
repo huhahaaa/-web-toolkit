@@ -209,3 +209,87 @@
   color: var(--danger);
   background: rgba(239, 68, 68, 0.06);
 }
+
+.taskEditing {
+  border-color: var(--accent) !important;
+  box-shadow: 0 0 25px rgba(108, 92, 231, 0.2) !important;
+  background: var(--bg-base) !important;
+}
+
+.editMode {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.editInput {
+  flex: 1;
+  min-width: 120px;
+  padding: 10px 14px;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  font-size: 14px;
+  font-weight: 500;
+  outline: none;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  transition: all 0.2s ease;
+}
+
+.editInput:focus {
+  box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+}
+
+.editSelect {
+  padding: 10px 12px;
+  border: 2px solid var(--accent);
+  border-radius: var(--radius);
+  font-size: 13px;
+  font-weight: 500;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  outline: none;
+  cursor: pointer;
+}
+
+.editActions {
+  display: flex;
+  gap: 6px;
+}
+
+.saveBtn {
+  padding: 10px 16px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.saveBtn:hover {
+  box-shadow: 0 4px 15px var(--accent-glow);
+  transform: translateY(-1px);
+}
+
+.cancelBtn {
+  padding: 10px 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.cancelBtn:hover {
+  border-color: rgba(239, 68, 68, 0.5);
+  color: var(--danger);
+  background: rgba(239, 68, 68, 0.06);
+}

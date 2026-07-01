@@ -1,4 +1,4 @@
-import { useState, useCallback } from 'react'
+import { useState, useCallback, useRef } from 'react'
 import { GalleryContext } from './gallery'
 
 const seedImages = [
@@ -16,10 +16,13 @@ export function GalleryProvider({ children }) {
     return saved ? JSON.parse(saved) : seedImages
   })
 
-  const persist = (newImages) => {
+  const imagesRef = useRef(images)
+  imagesRef.current = images
+
+  const persist = useCallback((newImages) => {
     setImages(newImages)
     localStorage.setItem('toolkit_gallery', JSON.stringify(newImages))
-  }
+  }, [])
 
   const addImage = useCallback((file) => {
     return new Promise((resolve) => {
@@ -31,20 +34,23 @@ export function GalleryProvider({ children }) {
           url: e.target.result,
           desc: '',
         }
-        persist([...images, newImg])
+        const currentImages = imagesRef.current
+        persist([...currentImages, newImg])
         resolve(newImg)
       }
       reader.readAsDataURL(file)
     })
-  }, [images])
+  }, [persist])
 
   const removeImage = useCallback((id) => {
-    persist(images.filter(img => img.id !== id))
-  }, [images])
+    const currentImages = imagesRef.current
+    persist(currentImages.filter(img => img.id !== id))
+  }, [persist])
 
   const updateImage = useCallback((id, updates) => {
-    persist(images.map(img => img.id === id ? { ...img, ...updates } : img))
-  }, [images])
+    const currentImages = imagesRef.current
+    persist(currentImages.map(img => img.id === id ? { ...img, ...updates } : img))
+  }, [persist])
 
   return (
     <GalleryContext.Provider value={{ images, addImage, removeImage, updateImage }}>
